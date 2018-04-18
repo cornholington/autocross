@@ -1,0 +1,92 @@
+Gender	Car Make	Car Model	Year	Car Color	Class	Number	CW	First Name	Last Name	Rookie	Run Heat	Work Heat	Work Assignment	Checkin	Raw Time	Raw Pos.	Prev. Pos.	Total	Diff.	From 1st	Pax Time	Pax Pos.	Best Run	Run 1	Pen 1	Run 2	Pen 2	Run 3	Pen 3
+male	Mazda	MX5 Miata	2016	Soul Red	X	1	13	KC	Milani	No				No	81.961	33	4	81.961	0.248	5.714	81.961	33	3	83.65	1	82.149		81.961	
+male	BMW	325i	2019	Multi	NAM	2	6	James	Goodale	Yes				No	91.258	80	5	91.258	2.381	9.436	91.258	80	3	93.406		92.608		91.258	
+male	BMW	325i	2019	Multi	NAM	3	6	John	Artz	Yes				No	88.877	70	4	88.877	0.223	7.055	88.877	70	3	97.184	1	91.452		88.877	
+male	BMW	325i	2019	Multi	NAM	4	6	Patrick	Miller	Yes				No	88.654	68	6	88.654	2.229	6.832	88.654	68	3	92.172		89.851		88.654	
+male	BMW	325i	1987	Multi	NAM	5	6	James	May	Yes				No	97.691	89	9	97.691	4.694	15.869	97.691	89	1	95.691	1	98.177		92.357	DNF
+male	Porsche	GT3	2015	Sapphire Blue	X	8	13	Mike	Avitt	No				No	76.247	2	1	76.247	[-]0.199	-	76.247	2	3	77.672		76.743		76.247	
+male	Mazda	MX5	2016	white	X	10	13	Thomas	Frecentese	No				No	79.088	10	6	79.088	0.402	2.841	79.088	10	2	79.622	1	79.088		79.213	
+male	BMW	335	2007	Blue	TM	12	8	Arthur	Grantz	No				No	89.447	73	3	89.447	4.538	8.903	89.447	73	3	92.845		90.224		89.447	
+male	BMW	335	2007	Blue	TM	15	8	Christian	Grantz	Yes				No	91.366	81	4	91.366	1.919	10.822	91.366	81	3	95.124	3	96.159	DNF	91.366	
+male	BMW	M3	2017	Yas Marina Blue	MPM	18	12	Ronald	Ongjoco	No				No	80.014	15	1	80.014	[-]1.132	-	80.014	15	2	82.638		80.014		80.157	
+male	BMW	328i	1996	White	G	19	15	Greg	Dean	No				No	80.738	22	2	80.738	1.344	5.255	80.738	22	2	81.089		80.738		80.834	
+male	BMW	Z3	2000	Black	NAS	20	5	Peter	Oneppo	No				No	83.953	50	1	83.953	[-]5.471	-	83.953	50	3	84.392	1	83.955		83.953	
+male	BMW	M3	1998	silver	MM	21	11	Evan	Ford	No				No	79.061	9	1	79.061	[-]1.133	-	79.061	9	3	79.642	1	79.806		79.061	
+male	BMW	M3	1998	Blue	MM	26	11	Noe	Alduenda	No				No	82.169	35	6	82.169	0.21	3.108	82.169	35	3	83.125		82.202	1	82.169	
+male	Honda	civic	1998	black	X	27	13	Bryan	Salgado	No				No	86.001	63	2	86.001	0.197	9.754	86.001	63	3	86.409	1	86.717		86.001	
+female	Dodge	Viper GTS	2002	Red/Black	X	28	13	Dallas	Hermsen	Yes				No	84.245	51	14	84.245	1.283	7.998	84.245	51	2	87.053		84.245		84.79	1
+male	BMW	M3	1995	Cosmos Black	MM	29	11	Mervin	Fullenwider	No				No	86.423	65	9	86.423	2.637	7.362	86.423	65	2	91.679	3	86.423		87.075	
+male	BMW	1M	2011	Valencia Orange	MS	30	9	Shawn	Flanagan	No				No	82.227	36	1	82.227	1.996	1.996	82.227	36	2	80.69	1	80.227	1	82.438	
+male	BMW	M3	2004	Black	MM	31	11	Timmy	O'Shea	No				No	88.819	69	7	88.819	2.396	9.758	88.819	69	3	89.642		89.411		88.819	
+male	BMW	M3	2015	Blue	MPS	32	10	John	Dunphy	Yes				No	82.993	43	2	82.993	0.986	3.1	82.993	43	2	83.786		82.993		83.188	
+male	Volkswagen	GTI	2013	Black	X	34	13	Lucas	Krall	Yes				No	100.016	91	15	100.016	0.674	23.769	100.016	91	2	100.223		100.016		102.32	
+female	BMW	325i	1998	Black	G	35	15	Linda	Kogan	No				No	85.572	60	5	85.572	0.869	10.089	85.572	60	3	86.049		98.837		85.572	
+male	BMW	340i	2016	Black	TS	36	7	David	Gretlein	No				No	91.078	78	2	91.078	5.172	9.758	91.078	78	2	93.712		91.078		92.102	
+male	BMW	M3	1988	Henna	MM	37	11	Daniel	Lee	No				No	80.287	18	2	80.287	0.093	1.226	80.287	18	3	81.975		81.306		80.287	
+male	Volkswagen	GTI	2016	Red	X	38	13	Josh	Dunphy	No				No	92.279	83	12	92.279	1.109	16.032	92.279	83	3	93.774		93.562		92.279	
+male	BMW	325i	1998	Black	G	39	15	Phil	Kogan	No				No	84.703	54	3	84.703	1.415	9.22	84.703	54	3	85.758		86.039	2	84.703	
+male	BMW	323I wagon	2000	Black	NAS	40	5	Orlando	Vargas	No				No	89.424	72	2	89.424	5.471	5.471	89.424	72	3	93.196		89.868		89.424	
+male	BMW	M4	2015	white	MPM	41	12	Ken	Sawina	No				No	89.971	74	2	89.971	4.5	9.957	89.971	74	3	93.752		90.781		89.971	
+male	BMW	M4 Competition Pkg	2016	Blue	MPS	43	10	Cesar	Cardozo	No				No	82.007	34	1	82.007	2.114	2.114	82.007	34	2	82.489		82.007		82.667	
+male	BMW	M3	2013	White	MPM	44	12	Rob	Jones	No				No	81.146	24	1	81.146	1.132	1.132	81.146	24	3	82.095		80.361	1	81.146	
+male	BMW	M3	1995	Yellow	MM	45	11	Stephen	Yurkovic	No				No	80.194	16	2	80.194	1.133	1.133	80.194	16	3	83.392		80.487		80.194	
+male	BMW	M4	2016	Black Sapphire	MPS	46	10	Ludovico	Verducci	No				No	79.893	14	1	79.893	[-]2.114	-	79.893	14	3	82.745		80.285		79.893	
+male	BMW	M3	2015	Mineral White	MPS	47	10	Douglas	Shirachi	No				No	88.926	71	7	88.926	2.209	9.033	88.926	71	3	90.619		102.456	DNF	88.926	
+male	BMW	m3	1999	black	MM	48	11	AJ	Yang-Halsey	No				No	81.494	27	4	81.494	0.601	2.433	81.494	27	3	82.271		82.589		81.494	
+male	BMW	M3	1999	Black	MM	49	11	Alfred	Ramirez	No				No	83.433	46	7	83.433	1.264	4.372	83.433	46	2	85.547		83.433		84.276	
+female	BMW	M235i	2015	White	TS	50	7	Tiffany	Avitt	No				No	81.32	26	1	81.32	[-]2.296	-	81.32	26	1	81.32		80.249	2	81.724	
+male	BMW	M3	2015	Yas Marina Blue	MPS	52	10	Jan	Godoski	No				No	86.717	67	6	86.717	2.387	6.824	86.717	67	3	91.458		88.546		86.717	
+male	Ford	Mustang GT	2016	Green	X	53	13	Michael	Beale	No				No	81.551	28	1	81.551	0.401	5.304	81.551	28	2	80.29	1	79.551	1	79.841	2
+male	BMW	335i	2013	White	TS	54	7	Derek	McCracken	Yes				No	85.906	62	1	85.906	2.29	4.586	85.906	62	3	86.224		86.687		85.906	
+male	Scion	FRS	2013	White	X	55	13	Jim	Ailes	No				No	82.258	37	5	82.258	0.297	6.011	82.258	37	3	93.873		83.37		82.258	
+male	Mini	Cooper S cabrio	2005	Dark Silver	MC	56	4	Ron	Escudero	No				No	81.798	30	1	81.798	[-]11.940	-	81.798	30	3	83.948		82.587	1	81.798	
+male	BMW	m3	2004	black	MM	57	11	Paul	Hualde	No				No	81.959	32	4	81.959	0.465	2.898	81.959	32	2	82.02	DNF	79.959	1	80.172	1
+male	Volkswagen	Jabbit POS	2009	Silver	X	60	13	Xavier	Rigau	No				No	94.331	87	13	94.331	1.137	18.084	94.331	87	1	94.331		94.982		94.609	
+male	Volkswagen	Rabbit	2009	silver	X	61	13	John	Seo	No				No	99.342	90	10	99.342	5.011	23.095	99.342	90	2	102.894		99.342		99.892	
+male	BMW	M3	2011	Blue	MPS	62	10	Stephen	Haase	No				No	84.33	52	3	84.33	1.16	4.437	84.33	52	2	85.197	1	84.33		84.678	
+male	BMW	Z4	2011	Silver	TM	63	8	Andreas	Hehle	No				No	84.909	55	1	84.909	4.365	4.365	84.909	55	3	86.304		85.077		84.909	
+female	Mini	Cooper S	2010	pepper	MC	64	4	Jodie	Sawina	No				No	93.738	86	2	93.738	11.94	11.94	93.738	86	3	95.001		93.921		93.738	
+male	BMW	M3	1997	Blue	MM	65	11	Richard	Lynch	No				No	83.786	49	8	83.786	0.353	4.725	83.786	49	3	84.181		83.817	3	83.786	
+male	BMW	325Ci	2004	Black	NAM	66	6	Simon	Revlock	No				No	86.217	64	4	86.217	1.285	4.395	86.217	64	3	85.773	1	84.376	1	84.217	1
+male	Ford	Focus ZX3	2000	Blue	X	67	13	Jason	Lykissas	No				No	81.15	25	1	81.15	0.809	4.903	81.15	25	2	81.563	1	81.15		81.854	1
+male	BMW	330CI	2001	Silver	NAM	68	6	Ryan	Keeley	No				No	81.822	31	1	81.822	[-]1.732	-	81.822	31	2	83.126		81.822		82.052	
+male	BMW	M3	1995	Black	MM	69	11	Ed	Sukchai	No				No	80.893	23	5	80.893	0.282	1.832	80.893	23	2	81.826	3	80.893		92.13	DNF
+male	Porsche	GT4	2016	Gray	X	70	13	Hi	Ly	No				No	77.99	7	4	77.99	1.343	1.743	77.99	7	1	77.99		78.072		78.083	1
+male	BMW	M3	1999	Black	G	71	15	Tim	Seargeant	No				No	83.288	45	7	83.288	0.403	7.805	83.288	45	1	83.288		84.836	DNF	82.922	1
+male	Chevrolet	Corvette C6 Z06	2007	Yellow	X	72	13	David	Rizzo	No				No	79.873	13	8	79.873	0.468	3.626	79.873	13	3	80.265		80.283		79.873	
+male	BMW	M3	1999	Black	MS	77	9	Jack	Roybal	No				No	80.231	17	1	80.231	[-]1.996	-	80.231	17	2	81.749		80.231		80.347	
+male	BMW	325i	1987	Multi	G	81	15	Neil	Daly	No				No	79.394	11	4	79.394	1.817	3.911	79.394	11	3	77.852	2	77.274	3	77.394	1
+male	Chevrolet	Corvette	2015	white	X	82	13	Mark	Hendricks	Yes				No	93.194	85	20	93.194	0.915	16.947	93.194	85	3	95.115		93.997		93.194	
+male	BMW	M235i	2015	Estoril Blue	TS	83	7	Richard	Le	No				No	83.616	48	1	83.616	2.296	2.296	83.616	48	2	84.592		83.616		83.628	
+male	BMW	M3	1997	Black	MM	84	11	John	Buergers	Yes				No	90.291	75	8	90.291	1.472	11.23	90.291	75	2	107.886	DNF	90.291		92.124	
+male	BMW	M3	1995	Yellow	MS	85	9	Steve	Yin	No				No	84.362	53	3	84.362	2.135	4.131	84.362	53	3	85.862		85.061		84.362	
+female	BMW	335d	2010	silver	TS	89	7	Carley	Allen	Yes				No	96.942	88	4	96.942	5.535	15.622	96.942	88	3	101.436		98.27		96.942	
+male	BMW	335d	2010	silver	TS	90	7	Chris	Sera	No				No	91.407	82	3	91.407	0.329	10.087	91.407	82	3	94.526		92.006		91.407	
+female	Porsche	Cayman	2015	Silver	X	91	13	Alisha	Wray	Yes				No	91.17	79	14	91.17	5.169	14.923	91.17	79	3	100.463	DNF	94.636		91.17	
+male	BMW	318ti	1997	Red	LC	92	3	Grant	Kluzak	No				No	90.719	77	2	90.719	5.178	5.178	90.719	77	2	91.581		90.719		92.514	
+female	BMW	M3	2008	Grey	MPM	94	12	Ashley	Andreoli	No				No	85.471	58	1	85.471	4.325	5.457	85.471	58	3	88.029	1	85.643		85.471	
+male	BMW	M4	2015	white	MPM	95	12	Jake	Dekovic	Yes				No	90.485	76	2	90.485	0.514	10.471	90.485	76	3	93.653		91.2		90.485	
+female	BMW	M3	1995	Green	G	97	15	Lisa	Goehring	No				No	82.885	41	6	82.885	2.147	7.402	82.885	41	3	84.274		83.794		82.885	
+male	Lotus	Elise	2005	Blue	X	116	13	Scott	Schubert	No				No	78.686	8	5	78.686	0.696	2.439	78.686	8	3	81.515		79.911		78.686	
+male	Audi	TT	2012	Black	X	118	13	Patrick	D'Auria	No				No	81.713	29	2	81.713	0.162	5.466	81.713	29	3	82.367		82.148		81.713	
+male	MAZDA	Miata	2004	cherry	G	137	15	William	Wong	No				No	76.397	3	2	76.397	0.914	0.914	76.397	3	2	77.332		76.397		76.861	
+male	BMW	M235i	2014	white	TM	171	8	Rob	Walker	No				No	80.544	20	1	80.544	[-]4.365	-	80.544	20	3	82.262	1	80.737		80.544	
+male	Honda	Civic	2012	white	X	246	13	Justin	Cheng	No				No	82.651	39	8	82.651	0.145	6.404	82.651	39	2	83.981		82.651		83.26	
+male	Van Diemen	RF90	1990	blue/white	G	251	15	Mark	Mervich	No				No	75.483	1	1	75.483	[-]0.914	-	75.483	1	1	75.483		74.545	2	74.066	1
+female	BMW	318is	1993	silver	LC	318	3	Rachel	Mills	No				No	85.541	59	1	85.541	[-]5.178	-	85.541	59	3	87.349		97.765	DNF	85.541	
+male	BMW	330i	2006	Black	NAM	330	6	Chris	Keefer	No				No	83.554	47	2	83.554	1.732	1.732	83.554	47	3	85.303	1	85.19		83.554	
+female	BMW	330i	2006	Black	NAM	331	6	Aly	Trust	No				No	86.425	66	3	86.425	0.208	4.603	86.425	66	2	87.604		86.425		86.875	
+male	BMW	M3	2015	Austin Yellow	MPS	342	10	Vinh	Ly	No				No	83.17	44	2	83.17	0.177	3.277	83.17	44	2	83.444	1	81.17	1	81.928	1
+male	Mazda	RX-8	2007	Grey	X	378	13	Daniel	Ralston	No				No	82.962	42	3	82.962	0.126	6.715	82.962	42	1	82.962		84.548	1	83.075	
+male	BMW	325Ci	2001	Silver	NAM	389	6	Jeffrey	Gaines	No				No	92.997	84	5	92.997	1.739	11.175	92.997	84	1	92.997		87.757	DNF	93.997	
+male	Mazda	MX-5	2012	Velocity Red	X	406	13	Robert	Joe	No				No	76.446	4	1	76.446	0.199	0.199	76.446	4	2	77.948		76.446		78.243	
+male	Lotus	Exige	2006	Orange	X	410	13	Andreas	Kottke	No				No	80.341	19	1	80.341	0.468	4.094	80.341	19	3	81.645	1	81.307		80.341	
+male	BMW	325is	1991	White	NAM	444	6	Ramze	Beydoun	No				No	84.932	56	2	84.932	1.378	3.11	84.932	56	2	84.744	1	82.932	1	83.483	2
+male	Honda	S2000	2003	red	G	650	15	Andrew	Simmons	No				No	77.577	6	1	77.577	1.18	2.094	77.577	6	3	79.099		77.743		77.577	
+female	Mazda	RX-8	2007	Gray	X	783	13	Karen	Callander	No				No	85.804	61	12	85.804	0.699	9.557	85.804	61	1	85.804		85.828		86.223	
+male	Mazda	Miata	2006	black	X	800	13	Carl	Lewis	No				No	76.647	5	2	76.647	0.201	0.4	76.647	5	2	78.418		76.647		77.966	
+male	Mazda	RX-8	2007	Gray	X	837	13	Mark	Baysinger	No				No	85.105	57	1	85.105	0.86	8.858	85.105	57	1	85.105		96.46	DNF	85.205	1
+male	Mazda	Miata	1994	White	X	868	13	Fred	Chen	No				No	82.506	38	3	82.506	0.248	6.259	82.506	38	3	91.26	DNF	85.762		82.506	
+male	Mazda	RX-8	2008	Grey	X	873	13	Alan	Lewis	No				No	82.836	40	8	82.836	0.185	6.589	82.836	40	2	85.001		82.836		81.903	1
+male	BMW	M3	2002	LagunaSeca Blue	MM	954	11	Ryan	Moore	No				No	80.611	21	3	80.611	0.324	1.55	80.611	21	2	81.009		80.611		81.038	
+male	Lotus	Exige S 240	2008	Isotope Green	X	1211	13	Keith	Larochelle	No				No	79.405	12	5	79.405	0.317	3.158	79.405	12	3	81.915		79.573		79.405	

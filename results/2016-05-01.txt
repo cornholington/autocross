@@ -1,0 +1,97 @@
+Gender	Year	Class	Number	First Name	Last Name	Car Model	Car Color	Raw Time	Raw Pos.	Prev. Pos.	Total	Diff.	From 1st	Pax Time	Pax Pos.	Best Run	Run 1	Pen 1	Run 2	Pen 2	Run 3	Pen 3	Run 4	Pen 4	Run 5	Pen 5	Run 6	Pen 6	Run 7	Pen 7	Run 8	Pen 8	Run 9	Pen 9	Run 10	Pen 10	Run 11	Pen 11	Run 12	Pen 12	Run 13	Pen 13	Run 14	Pen 14	Run 15	Pen 15	Run 16	Pen 16	Run 17	Pen 17	Run 18	Pen 18	Run 19	Pen 19	Run 20	Pen 20
+male	1999	MS	1	jack	roybal	m3 coupe	black	104.026	15	1	104.026	[-]0.647	-	104.026	15	2	104.292		104.026		105.569																																			
+female	2009	X	2	deanna	lynch	speed3	blue	119.469	87	10	119.469	0.139	17.379	119.469	87	3	125.233		121.157	2	119.469																																			
+male	2009	X	3	Richard	Lynch	Mazdaspeed 3	Blue	115.272	73	3	115.272	0.852	13.182	115.272	73	3	115.517		114.12	1	113.272	1																																		
+female	2010	TS	4	diane	haisha-deforest	325i M	black	121.504	91	3	121.504	0.345	18.039	121.504	91	3	122.387		123.208		121.504																																			
+male	2015	MPM	6	Blake	Johnston	M3	Mineral Grey	107.264	36	3	107.264	0.23	0.634	107.264	36	2	110.293		107.264		111.859	DNF																																		
+male	2000	NAS	7	Harry	Weiss	Z3-2.8	black	110.78	58	2	110.78	1.437	1.437	110.78	58	3	120.153	DNF	111.298		110.78																																			
+female	1995	MM	8	lisa	goehring	m3	green	103.572	12	1	103.572	0.292	0.292	103.572	12	2	104.172		103.572		103.914	2																																		
+male	2014	TM	10	Rob	Walker	M235i	white	109.745	49	1	109.745	[-]0.535	-	109.745	49	2	105.881	2	105.745	2	106.603	6																																		
+male	2000	G	11	satakal	khalsa	323i	red	106.594	31	1	106.594	1.555	8.621	106.594	31	2	107.628	5	106.594		133.454	DNF	122.457	1																																
+male	2015	MPM	13	Carlos	Ayala	M3	Yaz Marina Blue	110.644	57	5	110.644	0.044	4.014	110.644	57	3	113.199		115.224	DNF	110.644																																			
+male	2014	X	15	Jarred	Hoffman	WRX	Plasma Blue	108.4	41	1	108.4	0.023	6.31	108.4	41	3	112.42		110.089		108.4																																			
+female	2007	TM	16	Maria	Vaillancourt	335i	Black	118.419	84	1	118.419	8.139	8.674	118.419	84	3	127.491		120.574		118.419																																			
+male	1998	MM	18	Evan	Ford	M3	silver	103.28	10	1	103.28	[-]0.292	-	103.28	10	3	103.974		108.314	DNF	103.28																																			
+male	2001	X	19	Ian	gonia	s2000	silver	109.05	45	2	109.05	0.39	6.96	109.05	45	3	120.051	DNF	109.238		109.05																																			
+male	1999	MM	22	Steve	Peoples	m coupe	red	103.997	14	3	103.997	0.425	0.717	103.997	14	3	106.145		105.233		103.997																																			
+male	2007	X	23	Mark	Squire	Corvette	Monterrey Red	122.423	92	6	122.423	2.954	20.333	122.423	92	3	125.004		123.241		122.423																																			
+male	2011	MM	27	murat	ebesek	M3	Laguna Seca Blu	106.679	33	3	106.679	1.742	3.399	106.679	33	3	106.113	2	105.94	5	104.679	1																																		
+male	2004	MS	28	Paul	Hualde	m3	black	104.673	21	2	104.673	0.647	0.647	104.673	21	3	105.896	1	105.494		104.673																																			
+female	2015	TS	29	Jasmine	Ebeid	328i	White	120.048	89	1	120.048	0.218	16.583	120.048	89	3	118.101	2	115.919	5	120.048																																			
+male	2015	X	31	Julien	Brandt	Catfish	White	107.559	37	11	107.559	0.767	5.469	107.559	37	3	107.962		106.222	1	105.559	1																																		
+male	2015	X	32	Keith	Larochelle	corvette	Yellow	106.27	30	5	106.27	0.59	4.18	106.27	30	1	106.27		105.458	1	106.319	1																																		
+male	2016	X	33	richard	senior	Spark	White	115.828	75	27	115.828	0.556	13.738	115.828	75	1	115.828		115.23	1	117.427	DNF																																		
+male	2010	TS	34	Kurt	Millson	535i	Grey	116.944	77	4	116.944	5.091	13.479	116.944	77	2	119.012	1	116.944		115.628	6																																		
+male	1992	X	35	ryan	wild	740	white	117.055	78	20	117.055	1.091	14.965	117.055	78	2	118.42	1	117.055		117.554																																			
+male	1996	G	36	greg	dean	328i	White	104.412	19	4	104.412	2.904	6.439	104.412	19	1	104.412		104.664		104.917																																			
+female	2012	MC	38	sunny	rickard	cooper	white	123.642	94	1	123.642	18.332	18.332	123.642	94	2	124.173	3	123.642		123.751																																			
+female	2005	NAS	39	Audrey	Uhler	325i	Gray Green	117.833	83	2	117.833	4.367	8.49	117.833	83	3	117.95	1	143.958	DNF	117.833																																			
+male	2016	MPM	40	Brian	Johnston	M3	Orange	107.034	35	1	107.034	0.404	0.404	107.034	35	3	116.035	DNF	108.301		107.034																																			
+male	2012	TS	41	Roberto	Rimini	335is	LeMans-Blue	111.853	64	3	111.853	0.437	8.388	111.853	64	3	112.054	1	111.983		111.853																																			
+male	2016	MPS	42	Matthew	Wells	F80 M3	Yas Marina Blue	103.069	8	1	103.069	[-]5.374	-	103.069	8	3	104.497	1	103.174		103.069																																			
+male	2014	TS	43	Paul	Steinbruner	X1	White	111.416	62	2	111.416	3.472	7.951	111.416	62	3	113.177	1	112.233		111.416																																			
+male	2000	X	45	Jason	Lykissas	Focus ZX3	Blue	108.377	40	14	108.377	0.714	6.287	108.377	40	2	109.351		108.377		109.745	1																																		
+male	1998	MS	46	Wilson	Lin	M3	Black	108.651	43	4	108.651	2.674	4.625	108.651	43	3	109.15	DNF	109.142		108.651																																			
+male	2004	MS	47	Jason	Wu	M3	White	105.892	27	3	105.892	1.219	1.866	105.892	27	2	105.964	1	105.892		105.913																																			
+male	2001	NAM	49	Tom	Weltzien	325 i	Silver	111.672	63	4	111.672	0.797	5.624	111.672	63	3	112.285		111.346	1	111.672																																			
+male	2013	X	50	Russell	Newman	FR-S	Black	117.819	82	8	117.819	0.6	15.729	117.819	82	3	120.06		120.27		117.819																																			
+female	2013	X	52	Julie	Jester	FR-S	Black	128.711	96	7	128.711	6.288	26.621	128.711	96	3	127.817	2	127.299	1	124.711	2																																		
+male	2009	X	53	Edward	Fertig	Corvette Z06	Red	109.593	48	14	109.593	0.543	7.503	109.593	48	2	112.16	3	109.593		109.614	4																																		
+male	2005	X	54	Jacob	Danielson	Altima 3.5SE	Polished pewter	111.055	60	21	111.055	0.753	8.965	111.055	60	3	115.852	2	115.762	2	111.055																																			
+male	2013	X	55	Jim	Ailes	FRS	White	106.792	34	11	106.792	0.522	4.702	106.792	34	3	110.469		107.079		106.792																																			
+male	2016	X	56	Mark	Scoggins	MX-5	Red	119.33	86	5	119.33	1.511	17.24	119.33	86	3	119.51		119.964		119.33																																			
+male	1993	X	57	Alfred	Ramirez	Miata	Black	114.365	70	12	114.365	0.051	12.275	114.365	70	3	115.325		116.101		114.365																																			
+male	2015	MPS	59	Nicholas	Nazareno	M3	white	109.752	50	1	109.752	1.309	6.683	109.752	50	2	112.229		109.752		118.427																																			
+female	1988	MM	60	Nikki	Morris	M3	Red	114.294	68	2	114.294	7.615	11.014	114.294	68	3	120.025		116.739	1	114.294																																			
+male	1988	MM	61	Bryant	Nguyen	M3	Red	104.053	16	1	104.053	0.056	0.773	104.053	16	3	106.469	DNF	105.708		104.053																																			
+male	2011	MPS	62	Tim	Miller	M3	Silver	117.45	81	2	117.45	7.543	14.381	117.45	81	3	125.688		119.658		117.45																																			
+male	2012	X	63	Greg	Bostrom	C63	Charcoal Gray	109.763	51	10	109.763	0.17	7.673	109.763	51	3	114.347		110.461		109.763																																			
+female	2012	X	64	terran	bayer	c63	gray	114.42	71	3	114.42	0.055	12.33	114.42	71	2	119.621		114.42																																					
+male	2009	X	65	Robert	DeuPree	Corvette Z06	Yellow	102.09	5	1	102.09	[-]0.304	-	102.09	5	2	106.05	1	102.09		101.656	1																																		
+male	2010	TS	67	David	Armstrong	335i	black	119.83	88	1	119.83	2.886	16.365	119.83	88	3	122.037		119.902		119.83																																			
+female	2011	TS	68	Emily	Kluzak	335d	Blue	121.159	90	2	121.159	1.111	17.694	121.159	90	2	126.906	1	121.159		122.072	1																																		
+male	1997	MM	72	Sal A	Buzzetta	M3	Techno-Violet	114.871	72	8	114.871	0.577	11.591	114.871	72	3	112.157	2	111.415	6	110.871	2																																		
+male	2005	NAM	74	Alpesh	Khana	330ci	Black	106.048	29	1	106.048	[-]4.527	-	106.048	29	1	106.048		106.281	5	106.857																																			
+male	2016	X	76	Brian	Oppegaard	MX-5	RED	111.315	61	11	111.315	0.26	9.225	111.315	61	2	112.961		111.315		111.681	1																																		
+male	2011	TS	77	Andreas	Hehle	Z4	Silver	107.944	39	2	107.944	4.479	4.479	107.944	39	3	109.58	3	107.811	1	107.944																																			
+male	2004	NAM	78	Simon	Revlock	325Ci	Black	110.875	59	1	110.875	0.3	4.827	110.875	59	3	113.655		111.989		110.875																																			
+male	2011	MPS	79	Stephen	Haase	M3	Blue	108.443	42	2	108.443	5.374	5.374	108.443	42	3	110.812	1	108.777	3	106.443	1																																		
+male	1987	LC	86	Chris	Salas	325ic	Beige	123.719	95	2	123.719	1.06	19.659	123.719	95	3	125.902		124.319	DNF	123.719																																			
+male	2015	MPM	89	Ken	Sawina	M4	PEARL white	111.864	65	6	111.864	1.22	5.234	111.864	65	3	113.39		112.567		111.864																																			
+male	2015	MPM	90	ken	Sawina	m4	White	110.6	56	3	110.6	3.336	3.97	110.6	56	3	113.645		111.554		110.6																																			
+male	2007	TM	91	Daryll	Hayward	335i	White	110.28	53	2	110.28	0.535	0.535	110.28	53	3	112.315	1	112.904	2	110.28																																			
+female	2016	MPM	92	Justine	De Mayo	M4	Black	115.509	74	1	115.509	3.645	8.879	115.509	74	2	113.821	2	113.509	1	111.98	2																																		
+male	1994	G	93	nick	owen	miata	white	105.039	23	5	105.039	0.627	7.066	105.039	23	2	106.078	1	105.039		105.82																																			
+male	2016	X	94	josh	rolf	brz	blue	105.139	24	7	105.139	0.547	3.049	105.139	24	3	109.395		106.35		105.139																																			
+male	1998	X	95	dave	dispenza	cx	purple	115.964	76	28	115.964	0.136	13.874	115.964	76	3	118.941		117.64		115.964																																			
+male	2000	X	98	Nicholas	Romary	Focus	Boosty Blue	108.66	44	8	108.66	0.26	6.57	108.66	44	3	108.585	2	109.767		108.66																																			
+male	2004	X	99	Ken	Shamrell	RX-8	Black	117.219	80	7	117.219	0.048	15.129	117.219	80	2	119.891	1	117.219		118.464	2																																		
+male	2005	X	116	Scott	Schubert	Elise	Blue	102.394	6	2	102.394	0.304	0.304	102.394	6	1	102.394		101.615	3	102.729	1																																		
+male	2004	G	137	william	wong	miata	black cherry	99.743	2	2	99.743	1.77	1.77	99.743	2	3	100.83	4	100.044	1	99.743																																			
+male	1986	LC	157	Michael	Durant	325ES	Bronze	122.659	93	4	122.659	3.9	18.599	122.659	93	2	127.618	1	122.659																																					
+male	0	TS	177	Clint	Boyd	M235i	Grey	103.465	11	1	103.465	[-]4.479	-	103.465	11	2	104.334	1	103.465		103.586																																			
+male	2007	MC	186	michael	o'neal	Cooper S	white	105.31	25	1	105.31	[-]18.332	-	105.31	25	2	106.988	2	105.31		105.521																																			
+female	2012	X	212	Lori	Schult	500 Abarth	Red	117.171	79	21	117.171	0.116	15.081	117.171	79	2	119.153		117.171		116.574	1																																		
+male	2000	X	248	Mathieu	Hoffmann	Miata	Black	103.209	9	1	103.209	0.352	1.119	103.209	9	2	103.562	3	103.209		103.341	1																																		
+male	1990	G	251	Mark	Mervich	RF90	blue/white	97.973	1	1	97.973	[-]1.770	-	97.973	1	2	100.318		97.973		97.905	1																																		
+male	2014	X	256	Peter	Anselmo	ILX	Black	110.302	54	18	110.302	0.539	8.212	110.302	54	2	113.391		110.302		111.105	1																																		
+female	2004	MS	282	Sidney	Chang	M3	Phoenix Yellow	105.977	28	3	105.977	0.085	1.951	105.977	28	3	106.512	1	106.57	1	105.977																																			
+male	1992	LC	318	Chris Ke	Independent Motorcars	318is	silver	109.163	46	1	109.163	5.103	5.103	109.163	46	3	109.219		110.044		109.163																																			
+female	1992	LC	319	aly	trust	318is	silver	118.759	85	3	118.759	9.596	14.699	118.759	85	2	121.578		118.759		117.808	1																																		
+male	2000	NAS	320	Peter	Oneppo	Z3	Black	109.343	47	1	109.343	[-]1.437	-	109.343	47	2	112.015	2	109.343		109.621																																			
+male	1992	G	337	sean	thomson	miata	white	100.826	3	2	100.826	1.083	2.853	100.826	3	3	102.257	1	100.937		100.826																																			
+male	2015	MPS	342	Vinh	Ly	M3	Austin Yellow	109.907	52	3	109.907	0.155	6.838	109.907	52	2	111.559		109.907		110.295																																			
+male	2001	NAM	389	Jeffrey	Gaines	325Ci	Silver	113.097	66	2	113.097	1.425	7.049	113.097	66	3	118.368		114.927		113.097																																			
+male	2012	X	406	Robert	Joe	MX-5	Velocity Red	103.824	13	4	103.824	0.615	1.734	103.824	13	2	100.345	2	99.824	2	100.882	3																																		
+male	2006	X	410	Andreas	K	Exige	Orange	104.592	20	4	104.592	0.3	2.502	104.592	20	1	104.592		104.644		104.806																																			
+female	2012	X	525	Anastasia	Berta	Boxter S	White	114.314	69	20	114.314	2.999	12.224	114.314	69	2	117.514		114.314		112.871	1																																		
+female	2008	NAS	538	Deidre	Reed	328i	white	113.466	67	3	113.466	2.686	4.123	113.466	67	3	113.9	DNF	113.703		111.466	1																																		
+male	2016	X	619	Eiman	Rejali	Golf R	Lime Stone Grey	104.292	18	6	104.292	0.468	2.202	104.292	18	1	104.292		109.088	3	104.975																																			
+male	1991	MPM	626	Roger	Browning	e30	White	106.63	32	1	106.63	[-]0.404	-	106.63	32	2	106.749	2	106.63		112.487	DNF																																		
+male	2003	G	650	andrew	simmons	s2000	red	101.508	4	3	101.508	0.682	3.535	101.508	4	3	103.188		101.746		101.508																																			
+male	1988	NAM	695	spencer	wright	325i	blue	110.575	55	2	110.575	4.527	4.527	110.575	55	3	115.113	1	111.736		110.575																																			
+male	2000	MM	861	John	Stacey	M Coupe	Silver	104.937	22	1	104.937	0.884	1.657	104.937	22	3	107.497		106.696		104.937																																			
+male	1994	X	868	Fred	Chen	Miata	White	105.68	26	7	105.68	0.541	3.59	105.68	26	2	109.966		105.68		106.376	1																																		
+male	1986	LC	878	Nicolas	Beier	325	Blue	104.06	17	1	104.06	[-]5.103	-	104.06	17	2	103.841	1	104.06		104.171																																			
+male	2009	X	975	Luis	Ramos	cayman	black	107.663	38	6	107.663	0.104	5.573	107.663	38	3	108.646	1	108.282		107.663																																			
+male	2015	X	1012	Marc	Larochelle	corvette	Red	102.857	7	1	102.857	0.463	0.767	102.857	7	2	102.4	1	102.857		101.527	1																																		

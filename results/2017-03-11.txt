@@ -1,0 +1,104 @@
+Class	Number	CW	First Name	Last Name	Car Model	Car Color	Class 2	Grid #	Barcode	Member	Member #	Expires	DOB	Age	Registered	Reg.CheckIn	OLR	Paid	Fee Type	Sponsor	Tire Brand	Amnt.	Method	Annual Tech	Annual Waiver	Rookie	Run Heat	Work Heat	Work Assignment	Checkin	Raw Time	Raw Pos.	Prev. Pos.	Total	Diff.	From 1st	Pax Time	Pax Pos.	Best Run	Run 1	Pen 1	Run 2	Pen 2	Run 3	Pen 3	Run 4	Pen 4	
+LC	179	3	Theodore	Skinner	318TI	Red			179	No					Yes	No		No				0.00		No	No	No				No	79.871	12	1	79.871	[-]1.147	-	79.871	12	4	78.978	2	79.974	1	80.215		79.871		
+LC	971	3	Todd	Skinner	318TI	Red			971	No					Yes	No		No				0.00		No	No	No				No	81.018	21	1	81.018	+1.147	+1.147	81.018	21	3	81.947		82.679	1	81.018		81.955		
+LC	523	3	Grant	Kluzak	318ti	Ron Burgundy			523	No					Yes	No		No				0.00		No	No	No				No	91.964	86	3	91.964	+10.946	+12.093	91.964	86	4	95.612		94.303		92.311		91.964		
+LC	318	3	Carley	Allen	318is	silver	Ladies		318	No					Yes	No		No				0.00		No	No	No				No	91.998	87	2	91.998	+0.034	+12.127	91.998	87	4	100.122		94.208		93.308	1	91.998		
+LC	17	3	Steve	Fuller	2002tii	silver			17	No					Yes	No		No				0.00		No	No	Yes				No	98.064	99	4	98.064	+6.066	+18.193	98.064	99	2	100.943	DNF	98.064		99.277		97.688	DNF	
+NAS	7	5	Harry	Weiss	Z3-2.8	black			7	No					Yes	No		No				0.00		No	No	No				No	85.581	62	1	85.581	[-]3.786	-	85.581	62	2	87.212		85.581		87.864		86.294		
+NAS	52	5	Alfred	Ramirez	330ci	Gray			52	No					Yes	No		No				0.00		No	No	No				No	89.367	78	1	89.367	+3.786	+3.786	89.367	78	4	92.359	1	90.852		89.467		89.367		
+NAS	40	5	Walter	Gates	325i	White			40	No					Yes	No		No				0.00		No	No	No				No	93.358	91	1	93.358	+3.991	+7.777	93.358	91	3	95.755		95.766		93.358		93.789		
+NAS	67	5	Victor	Soto	325is	Red			67	No					Yes	No		No				0.00		No	No	Yes				No	93.536	92	2	93.536	+0.178	+7.955	93.536	92	2	94.684		93.536		94.193		93.900		
+NAS	18	5	Jeff	Andrews	325i	Black			18	No					Yes	No		No				0.00		No	No	No				No	93.633	94	3	93.633	+0.097	+8.052	93.633	94	4	98.090	2	94.724		94.699		93.633		
+NAS	42	5	Dennis	Lazaga	328i	Blue			42	No					Yes	No		No				0.00		No	No	Yes				No	96.172	96	4	96.172	+2.539	+10.591	96.172	96	4	98.819		96.703		96.672		96.172		
+NAM	331	6	Aly	Keefer	330i	Black	Ladies		331	No					Yes	No		No				0.00		No	No	No				No	56.339	1	1	56.339	[-]25.961	-	56.339	1	1	54.339	1	85.671	2	86.317		86.894		
+NAM	68	6	Ryan	Keeley	330CI	Silver			68	No					Yes	No		No				0.00		No	No	No				No	82.300	32	2	82.300	+25.961	+25.961	82.300	32	4	83.796	1	83.267		83.491	1	82.300		
+NAM	19	6	Alpesh	Khana	330ci	Black			19	No					Yes	No		No				0.00		No	No	No				No	82.872	36	1	82.872	+0.572	+26.533	82.872	36	3	84.379		85.268	1	82.872		83.647	3	
+NAM	203	6	Peter	Oneppo	Z3	Black			203	No					Yes	No		No				0.00		No	No	No				No	83.018	38	3	83.018	+0.146	+26.679	83.018	38	3	82.979	1	83.637		83.018		83.850	3	
+NAM	228	6	Thejusvi	Ganesh	540	Grey			228	No					Yes	No		No				0.00		No	No	No				No	84.299	48	1	84.299	+1.281	+27.960	84.299	48	2	86.172		84.299		86.118		85.468		
+NAM	444	6	Ramze	Beydoun	325is	White			444	No					Yes	No		No				0.00		No	No	No				No	84.332	49	3	84.332	+0.033	+27.993	84.332	49	4	88.610	3	86.323		86.388		84.332		
+NAM	330	6	Chris	Keefer	330i	Black			330	No					Yes	No		No				0.00		No	No	No				No	84.661	54	1	84.661	+0.329	+28.322	84.661	54	4	85.052		85.753		85.812		84.661		
+NAM	36	6	Patrick	Miller	E30	Green			36	No					Yes	No		No				0.00		No	No	No				No	87.668	70	7	87.668	+3.007	+31.329	87.668	70	2	89.792		87.668		88.312		87.937		
+NAM	46	6	kyler	smith	325i	tan			46	No					Yes	No		No				0.00		No	No	Yes				No	88.164	73	5	88.164	+0.496	+31.825	88.164	73	2	90.510		88.164		95.127		91.982		
+NAM	16	6	grayson	marble	325i	delphine grey			16	No					Yes	No		No				0.00		No	No	No				No	88.556	76	9	88.556	+0.392	+32.217	88.556	76	4	93.162		90.709		89.673		88.556		
+NAM	35	6	John	Artz	E30	Green			35	No					Yes	No		No				0.00		No	No	No				No	89.188	77	6	89.188	+0.632	+32.849	89.188	77	4	92.930		92.259	2	91.107		89.188		
+NAM	48	6	jacob	russo	325i	wht			48	No					Yes	No		No				0.00		No	No	Yes				No	91.018	83	7	91.018	+1.830	+34.679	91.018	83	3	92.007		91.442		91.018		91.302		
+NAM	37	6	James	Goodale	E30	Green			37	No					Yes	No		No				0.00		No	No	Yes				No	92.695	90	2	92.695	+1.677	+36.356	92.695	90	3	94.513		94.645		92.695		98.847		
+TS	43	7	John	Baker	135i Convertible	Black			43	No					Yes	No		No				0.00		No	No	No				No	83.364	42	1	83.364	[-]0.320	-	83.364	42	4	84.581		84.119		83.653		83.364		
+TS	44	7	Roberto	Rimini	335is	LeMans-Blue			44	No					Yes	No		No				0.00		No	No	No				No	83.684	45	2	83.684	+0.320	+0.320	83.684	45	3	84.868	1	84.300		83.684		84.695	2	
+TS	535	7	Kurt	Millson	535i	Grey			535	No					Yes	No		No				0.00		No	No	No				No	84.696	56	2	84.696	+1.012	+1.332	84.696	56	2	86.381	1	84.696		85.611		84.893	5	
+TS	51	7	John	Aston	535i	Grey			51	No					Yes	No		No				0.00		No	No	No	1	3		No	87.162	69	3	87.162	+2.466	+3.798	87.162	69	2	87.309		87.162		87.709		88.141		
+TS	14	7	Juan Diego	Saffon	335i	Silver			14	No					Yes	No		No				0.00		No	No	Yes				No	89.520	80	2	89.520	+2.358	+6.156	89.520	80	4	91.732		90.288		92.458	2	89.520		
+TS	33	7	Leo	Luna	328i	Color			33	No					Yes	No		No				0.00		No	No	Yes				No	91.956	85	3	91.956	+2.436	+8.592	91.956	85	3	94.229		94.227		91.956		92.629		
+TM	75	8	scott	sanson	135i	wht			75	No					Yes	No		No				0.00		No	No	No				No	82.724	35	1	82.724	[-]3.271	-	82.724	35	2	92.756		82.724		82.839		96.050	1	
+TM	32	8	Andreas	Hehle	Z4	Silver			32	No					Yes	No		No				0.00		No	No	No				No	85.995	63	2	85.995	+3.271	+3.271	85.995	63	2	87.047		85.995		88.791	1	86.774		
+TM	66	8	Daryll	Hayward	335i	White			66	No					Yes	No		No				0.00		No	No	No				No	86.776	67	2	86.776	+0.781	+4.052	86.776	67	4	87.835	2	87.150		89.934		86.776		
+MS	188	9	Greg	Uhler	M2	Grey			188	No					Yes	No		No				0.00		No	No	No				No	79.204	10	1	79.204	[-]2.753	-	79.204	10	4	81.708		80.072		79.369	1	79.204		
+MS	77	9	JACK	ROYBAL	M3	BLK			77	No					Yes	No		No				0.00		No	No	No				No	81.957	27	1	81.957	+2.753	+2.753	81.957	27	4	83.370		82.666	1	82.268		81.957		
+MS	56	9	Zidong	Jiang	M3 Coupe	Silver			56	No					Yes	No		No				0.00		No	No	No				No	88.114	72	3	88.114	+6.157	+8.910	88.114	72	2	90.393		88.114		90.442	DNF	89.482	1	
+MPS	49	10	Jan	Godoski	M3	Yas Marina Blue			49	No					Yes	No		No				0.00		No	No	No				No	82.155	30	1	82.155	+5.959	+5.959	82.155	30	4	83.858		82.340		82.671		82.155		
+MPS	71	10	Graham	Fletterich	M4	White			71	No					Yes	No		No				0.00		No	No	Yes	1	3		No	83.436	43	2	83.436	+1.281	+4.678	83.436	43	4	89.745		86.956		84.801		83.436		
+MPS	61	10	John	Dunphy	M3	Blue			61	No					Yes	No		No				0.00		No	No	No				No	84.081	47	2	84.081	+0.645	+4.033	84.081	47	2	84.382		84.081		84.617		84.460		
+MPS	73	10	Stephen	Haase	M3	Blue			73	No					Yes	No		No				0.00		No	No	No				No	84.445	50	2	84.445	+0.364	+3.669	84.445	50	4	88.789		85.731		84.947		84.445		
+MPS	64	10	Nick	Davison	M5	Blue			64	No					Yes	No		No				0.00		No	No	Yes				No	84.571	52	1	84.571	+0.126	+3.543	84.571	52	4	85.879		84.754		84.765		84.571		
+MPS	23	10	Tim	Pedone	M3	Blue			23	No					Yes	No		No				0.00		No	No	Yes				No	84.704	57	5	84.704	+0.133	+3.410	84.704	57	2	88.341	DNF	84.704		86.531	3	86.685	1	
+MPS	30	10	Brent	Mattraw	M3 Comp Pkg	Black			30	No					Yes	No		No				0.00		No	No	Yes				No	86.362	65	2	86.362	+1.658	+1.752	86.362	65	4	100.222		88.895		87.763		86.362		
+MPS	21	10	Spencer	Pedone	M3	Blue			21	No					Yes	No		No				0.00		No	No	Yes				No	86.930	68	6	86.930	+0.568	+1.184	86.930	68	2	87.981		86.930		89.739		87.335		
+MPS	55	10	Rory	Davis	M5	Sakhir Orange			55	No					Yes	No		No				0.00		No	No	Yes				No	93.923	95	3	93.923	+6.993	+5.809	93.923	95	3	97.373		94.329		91.923	1	91.709	2	
+MPS	74	10	sijun	ling	m3	orng			74	No					Yes	No		No				0.00		No	No	Yes				No	96.341	97	1	96.341	+2.418	+8.227	96.341	97	4	106.417		100.211		98.425	1	96.341		
+MPS	60	10	Joseph	Djan	M3 (E93)	Black			60	No					Yes	No		No				0.00		No	No	No				No	DNS	100		DNS				100										
+MM	87	11	jonathan	king	m3	gree boston			87	No					Yes	No		No				0.00		No	No	No				No	81.003	19	1	81.003	[-]0.007	-	81.003	19	2	82.929		81.003		81.315		81.450		
+MM	70	11	Evan	Ford	M3	silver			70	No					Yes	No		No				0.00		No	No	No				No	81.010	20	1	81.010	+0.007	+0.007	81.010	20	3	82.635		82.030		81.010		88.834	DNF	
+MM	22	11	Steve	Peoples	m coupe	red			22	No					Yes	No		No				0.00		No	No	No				No	82.214	31	2	82.214	+1.204	+1.211	82.214	31	2	84.206		82.214		81.869	1	83.759		
+MM	24	11	scott	marelious	Z4M	WHT			24	No					Yes	No		No				0.00		No	No	Yes				No	82.462	33	3	82.462	+0.248	+1.459	82.462	33	2	84.931		82.462		82.583		87.981	2	
+MM	63	11	Paul	Hualde	M3	Black			63	No					Yes	No		No				0.00		No	No	No				No	82.707	34	2	82.707	+0.245	+1.704	82.707	34	1	82.707		84.097		85.827		83.099		
+MM	27	11	xavier	beltren xavier	m3	slv			27	No					Yes	No		No				0.00		No	No	Yes				No	83.580	44	1	83.580	+0.873	+2.577	83.580	44	4	85.890		87.296		84.790		83.580		
+MM	111	11	Sal A	Buzzetta	M3	Techno-Violet			111	No					Yes	No		No				0.00		No	No	No				No	84.524	51	4	84.524	+0.944	+3.521	84.524	51	4	87.390		85.491		86.308	1	84.524		
+MM	41	11	Charisse	Charters	M3	Kinda Blue	Ladies		41	No					Yes	No		No				0.00		No	No	No				No	84.864	59	2	84.864	+0.340	+3.861	84.864	59	4	87.379		85.815		85.851		84.864		
+MM	161	11	Sal J	Buzzetta	M3	Techno-Violet			161	No					Yes	No		No				0.00		No	No	No				No	88.037	71	6	88.037	+3.173	+7.034	88.037	71	4	89.118		88.064		88.316		88.037		
+MM	29	11	Tyler	Waldron	M3	white			29	No					Yes	No		No				0.00		No	No	No				No	89.579	81	9	89.579	+1.542	+8.576	89.579	81	2	93.466		89.579		92.511	DNF	95.258	DNF	
+MM	38	11	John	Buergers	M3	Black			38	No					Yes	No		No				0.00		No	No	No				No	92.204	88	7	92.204	+2.625	+11.201	92.204	88	3	94.177	3	93.089		92.204		92.689		
+MPM	57	12	Ludovico	Verducci	M4	Black Sapphire			57	No					Yes	No		No				0.00		No	No	No				No	80.767	16	1	80.767	[-]0.813	-	80.767	16	3	81.307		85.078	1	80.767		81.555		
+MPM	53	12	Brendan	Ong	M4	Austin Yellow			53	No					Yes	No		No				0.00		No	No	No				No	81.580	24	1	81.580	+0.813	+0.813	81.580	24	1	81.580		83.715	1	81.290	2	82.139	1	
+MPM	886	12	Rob	Jones	M3	White			886	No					Yes	No		No				0.00		No	No	No				No	82.061	29	3	82.061	+0.481	+1.294	82.061	29	4	81.426	1	80.671	1	85.739	3	82.061		
+MPM	100	12	Tom	Fota	M4 Coupe	Sakhir Orange			100	No					Yes	No		No				0.00		No	No	No				No	83.192	40	1	83.192	+1.131	+2.425	83.192	40	1	83.192		82.660	2	82.230	1	83.506		
+MPM	47	12	Ashley	Andreoli	M3	SGM	Ladies		47	No					Yes	No		No				0.00		No	No	No				No	86.626	66	3	86.626	+3.434	+5.859	86.626	66	4	96.848	3	88.660	1	87.052	1	86.626		
+MPM	54	12	Wendy	Ong	M4	Austin Yellow			54	No					Yes	No		No				0.00		No	No	No				No	91.918	84	1	91.918	+5.292	+11.151	91.918	84	4	100.089		96.288	DNF	92.232	1	91.918		
+MPM	65	12	Martin	Rivera	M4	black			65	No					Yes	No		No				0.00		No	No	No				No	DNS	101		DNS				101										
+X	406	13	Robert	Joe	MX-5	Velocity Red			406	No					Yes	No		No				0.00		No	No	No				No	77.147	4	1	77.147	[-]0.063	-	77.147	4	4	78.106	1	85.903		77.803		77.147		
+X	15	13	Julien	Brandt	Catfish	White			15	No					Yes	No		No				0.00		No	No	No				No	77.210	6	1	77.210	+0.063	+0.063	77.210	6	2	78.829	2	77.210		77.636		78.432		
+X	410	13	andreas	kottke	exige	orange			410	No					Yes	No		No				0.00		No	No	No				No	78.230	7	1	78.230	+1.020	+1.083	78.230	7	3	79.199		78.255		78.230		78.663		
+X	800	13	Carl	Lewis	Miata	black			800	No					Yes	No		No				0.00		No	No	No				No	78.709	9	3	78.709	+0.479	+1.562	78.709	9	3	78.839		78.907		78.709		78.316	1	
+X	118	13	Patrick	D'Auria	TT	Black			118	No					Yes	No		No				0.00		No	No	No				No	80.153	13	5	80.153	+1.444	+3.006	80.153	13	3	81.185	1	83.822		80.153		79.203	4	
+X	12	13	Ian	Gonia	s2000	silver			12	No					Yes	No		No				0.00		No	No	No				No	80.446	14	3	80.446	+0.293	+3.299	80.446	14	3	81.302		80.118	1	80.446		81.431	1	
+X	1	13	Russ	Bergholz	Not A Car	Black			1	No					Yes	No		No				0.00		No	No	No				No	80.573	15	7	80.573	+0.127	+3.426	80.573	15	4	83.815		88.023	DNF	81.664		80.573		
+X	731	13	Michael	Korody	spec miata	blue			731	No					Yes	No		No				0.00		No	No	No				No	80.801	17	2	80.801	+0.228	+3.654	80.801	17	3	82.165		80.893		80.801		79.941	2	
+X	31	13	David	Rizzo	Corvette C6 Z06	Yellow			31	No					Yes	No		No				0.00		No	No	No				No	80.886	18	8	80.886	+0.085	+3.739	80.886	18	3	81.939		80.957		80.886		81.424		
+X	979	13	Hooman	Ahrari	S2000	silver			979	No					Yes	No		No				0.00		No	No	No				No	81.067	22	9	81.067	+0.181	+3.920	81.067	22	3	83.767		82.441	1	81.067		82.303		
+X	977	13	Marcela	Aguirre	Boxster	White	Ladies		977	No					Yes	No		No				0.00		No	No	No				No	81.212	23	11	81.212	+0.145	+4.065	81.212	23	3	83.206		82.550		81.212		81.577		
+X	25	13	Jason	Lykissas	Focus ZX3	Blue			25	No					Yes	No		No				0.00		No	No	No				No	81.907	26	3	81.907	+0.695	+4.760	81.907	26	2	82.608		81.907		82.787		82.518		
+X	787	13	jacey	cobb	Miata	red			787	No					Yes	No		No				0.00		No	No	No				No	81.980	28	6	81.980	+0.073	+4.833	81.980	28	4	86.679	1	84.706		83.770		81.980		
+X	13	13	Michael	Beale	Mustang GT	Green			13	No					Yes	No		No				0.00		No	No	No				No	82.951	37	14	82.951	+0.971	+5.804	82.951	37	3	84.293		81.808	1	82.951		82.200	1	
+X	72	13	kevin	woo	S2000	blk			72	No					Yes	No		No				0.00		No	No	No				No	83.164	39	3	83.164	+0.213	+6.017	83.164	39	3	84.224		83.754		83.164		83.191		
+X	45	13	Cord	Bauer	Catfish	Silver/Black			45	No					Yes	No		No				0.00		No	No	No				No	83.243	41	4	83.243	+0.079	+6.096	83.243	41	4	85.593		83.992		84.061		83.243		
+X	50	13	Kardon	Aston	Mustang	Green			50	No					Yes	No		No				0.00		No	No	No				No	83.870	46	3	83.870	+0.627	+6.723	83.870	46	3	87.521		84.037		83.870		84.592		
+X	39	13	Gustave	Stroes	E63 AMG S Wagon	Dark Brown			39	No					Yes	No		No				0.00		No	No	No				No	84.680	55	7	84.680	+0.810	+7.533	84.680	55	1	84.680		84.851	1	85.295		95.278	DNF	
+X	378	13	Daniel	Ralston	RX-8	Grey			378	No					Yes	No		No				0.00		No	No	No				No	84.748	58	6	84.748	+0.068	+7.601	84.748	58	4	85.379		84.788		85.896		84.748		
+X	619	13	Eiman	Rejali	A3	black			619	No					Yes	No		No				0.00		No	No	No				No	85.098	60	4	85.098	+0.350	+7.951	85.098	60	3	85.476	1	85.379		85.098		85.621	1	
+X	59	13	Suolong	Dong	S2000	Silverstone			59	No					Yes	No		No				0.00		No	No	No				No	86.246	64	1	86.246	+1.148	+9.099	86.246	64	2	89.627	4	86.246		111.351	DNF	88.350	1	
+X	34	13	Bryan	Salgado	civic	Color			34	No					Yes	No		No				0.00		No	No	No				No	88.205	74	11	88.205	+1.959	+11.058	88.205	74	3	90.067	1	92.456	DNF	88.205		89.084		
+X	58	13	Richard	Le	S2000	Sebring Silver			58	No					Yes	No		No				0.00		No	No	No				No	88.319	75	15	88.319	+0.114	+11.172	88.319	75	3	92.173		89.337		88.319		88.434		
+X	76	13	Juan	Hernandez	Camaro 1le	Grey			76	No					Yes	No		No				0.00		No	No	Yes				No	89.408	79	9	89.408	+1.089	+12.261	89.408	79	4	94.111	1	90.442		89.661	DNF	89.408		
+X	212	13	Lori	Schult	500 Abarth	Red	Ladies		212	No					Yes	No		No				0.00		No	No	No				No	90.125	82	2	90.125	+0.717	+12.978	90.125	82	3	94.714	1	92.440		90.125		88.426	1	
+X	62	13	Josh	Dunphy	GTI	Red			62	No					Yes	No		No				0.00		No	No	No				No	92.629	89	14	92.629	+2.504	+15.482	92.629	89	4	95.335	1	94.342		92.946		92.629		
+X	20	13	Xavier	Rigau	Jabbit POS	Silver			20	No					Yes	No		No				0.00		No	No	No				No	93.596	93	4	93.596	+0.967	+16.449	93.596	93	4	94.851	1	93.717		95.837		93.596		
+X	26	13	Kevin	Degnan	Mustang	Grey			26	No					Yes	No		No				0.00		No	No	No				No	97.753	98	5	97.753	+4.157	+20.606	97.753	98	4	101.586		98.054		99.107		97.753		
+X	28	13	William	Grant	F-type R coupe	White			28	No					Yes	No		No				0.00		No	No	Yes				No	DNS	102		DNS				102										
+G	69	15	brian	goodwin	Miata	blue			69	No					Yes	No		No				0.00		No	No	No				No	74.716	2	1	74.716	[-]0.607	-	74.716	2	3	76.993		75.072	1	74.716		74.921		
+G	251	15	Mark	Mervich	RF90	blue/white			251	No					Yes	No		No				0.00		No	No	No				No	75.323	3	2	75.323	+0.607	+0.607	75.323	3	4	79.118		77.715		76.373		75.323		
+G	337	15	sean	thompson	Miata	wh			337	No					Yes	No		No				0.00		No	No	No				No	77.179	5	2	77.179	+1.856	+2.463	77.179	5	3	78.730	1	77.979	2	77.179		77.445		
+G	137	15	william	wong	Miata	black			137	No					Yes	No		No				0.00		No	No	No				No	78.448	8	3	78.448	+1.269	+3.732	78.448	8	2	79.059		78.448		78.725	3	78.334	3	
+G	84	15	Nick	Owen	M3	white			84	No					Yes	No		No				0.00		No	No	No				No	79.548	11	5	79.548	+1.100	+4.832	79.548	11	4	80.603		79.520	2	79.511	1	79.548		
+G	11	15	greg	dean	328i	wht			11	No					Yes	No		No				0.00		No	No	No				No	81.736	25	3	81.736	+2.188	+7.020	81.736	25	4	82.068		81.146	1	82.282		81.736		
+G	171	15	Rob	Walker	318is	white			171	No					Yes	No		No				0.00		No	No	No				No	84.623	53	7	84.623	+2.887	+9.907	84.623	53	4	86.879		85.745	1	84.968	1	84.623		
+G	80	15	Lisa	Goehring	M3	green			80	No					Yes	No		No				0.00		No	No	No				No	85.186	61	8	85.186	+0.563	+10.470	85.186	61	4	87.785	1	88.063		88.510		85.186		
+G	650	15	andrew	simmons	S2000	rd			650	No					Yes	No		No				0.00		No	No	No				No	DNS	103		DNS				103										

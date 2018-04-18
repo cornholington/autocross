@@ -1,0 +1,97 @@
+Class	Number	CW	First Name	Last Name	Car Model	Car Color	Class 2	Grid #	Barcode	Member	Member #	Expires	DOB	Age	Registered	Reg.CheckIn	OLR	Paid	Fee Type	Amnt.	Method	Annual Tech	Annual Waiver	Rookie	Run Heat	Work Heat	Work Assignment	Checkin	Year	Car Make	Raw Time	Raw Pos.	Prev. Pos.	Total	Diff.	From 1st	Pax Time	Pax Pos.	Best Run	Run 1	Pen 1	Run 2	Pen 2	Run 3	Pen 3	Run 4	Pen 4	
+lc	971	3	Todd	Skinner	318TI	Red			971	No					Yes	No		No		0.00		No	No	No				No	1995	BMW	104.447	38	1	104.447	[-]0.102	-	104.447	38	2	104.644		104.447		104.924		112.206	dnf	
+lc	179	3	Theodore	Skinner	318TI	Red			179	No					Yes	No		No		0.00		No	No	No				No	1995	BMW	104.549	42	2	104.549	+0.102	+0.102	104.549	42	1	104.549		108.781	3	104.627	1			
+lc	318	3	Aryana	Zarandia	318is	silver	female		318	No					Yes	No		No		0.00		No	No	No				No	1992	BMW	112.367	80	1	112.367	+7.818	+7.920	112.367	80	3	114.708		115.276	1	110.367	1	113.183	3	
+lc	33	3	Owen	Nelson	325e	white			33	No					Yes	No		No		0.00		No	No	No				No	1985	BMW	112.567	83	2	112.567	+0.200	+8.120	112.567	83	4	113.993	2	112.725	2	112.978		112.567		
+lc	523	3	Grant	Kluzak	318ti	Ron Burgundy			523	No					Yes	No		No		0.00		No	No	No				No	1997	BMW	116.213	88	3	116.213	+3.646	+11.766	116.213	88	2	120.756		116.213		116.280		117.127	1	
+lc	319	3	Carley	Allen	318is	silver	female		319	No					Yes	No		No		0.00		No	No	No				No	1992	BMW	116.743	89	4	116.743	+0.530	+12.296	116.743	89	3	117.932		116.781		116.743		126.577	dnf	
+nas	7	5	Harry	Weiss	Z3-2.8	black			7	No					Yes	No		No		0.00		No	No	No				No	2000	BMW	103.944	33	1	103.944	[-]1.183	-	103.944	33	4	109.675	dnf	105.632		105.584		103.944		
+nas	411	5	Tyler	DeGraff	330i	Green			411	No					Yes	No		No		0.00		No	No	No				No	2006	BMW	105.127	45	2	105.127	+1.183	+1.183	105.127	45	4	106.157	1	104.026	1	104.313	1	105.127		
+nas	34	5	Brett	Corbin	650i	Grey			34	No					Yes	No		No		0.00		No	No	No				No	2006	BMW	106.427	52	2	106.427	+1.300	+2.483	106.427	52	3	109.200		107.826		106.427		106.567		
+nas	52	5	Tom	Weltzien	325it	Silver			52	No					Yes	No		No		0.00		No	No	No				No	2001	BMW	111.349	73	1	111.349	+4.922	+7.405	111.349	73	1	111.349		109.524	2	111.187	1	109.020	2	
+nas	47	5	Alexander	Harris	128i	Black			47	No					Yes	No		No		0.00		No	No	Yes				No	2012	BMW	120.467	92	1	120.467	+9.118	+16.523	120.467	92	2	120.357	2	120.467		123.618		121.481	6	
+nam	186	6	Ryan	Keeley	330CI	Silver			186	No					Yes	No		No		0.00		No	No	No				No	2001	BMW	103.650	31	1	103.650	[-]0.825	-	103.650	31	1	103.650		103.044	2	104.013		103.892		
+nam	330	6	Chris	Keefer	330i	Black			330	No					Yes	No		No		0.00		No	No	No				No	2006	BMW	104.475	39	1	104.475	+0.825	+0.825	104.475	39	2	105.392		104.475		104.564	1	106.081		
+nam	203	6	Peter	Oneppo	330 Ci	Grey			203	No					Yes	No		No		0.00		No	No	No				No	2001	BMW	105.605	49	2	105.605	+1.130	+1.955	105.605	49	2	107.648		105.605		111.998	1	105.922		
+nam	157	6	Michael	Durant	330i	Red			157	No					Yes	No		No		0.00		No	No	No				No	2004	BMW	112.085	77	3	112.085	+6.480	+8.435	112.085	77	4	113.908		114.259	2	114.845	1	112.085		
+nam	43	6	Kyler	Smith	325is	unknown			43	No					Yes	No		No		0.00		No	No	No				No	1987	BMW	113.122	84	3	113.122	+1.037	+9.472	113.122	84	2	114.323		113.122		120.292	3			
+nam	69	6	Ronnie	Smith	325is	Blue			69	No					Yes	No		No		0.00		No	No	Yes				No	1988	BMW	122.502	94	5	122.502	+9.380	+18.852	122.502	94	4	130.654		126.294		125.774		122.502		
+ts	48	7	Paul	Hualde	235i	black			48	No					Yes	No		No		0.00		No	No	No				No	2014	BMW	103.015	29	1	103.015	[-]9.341	-	103.015	29	1	103.015		103.383		103.399		103.668		
+ts	535	7	Kurt	Millson	535i	Grey			535	No					Yes	No		No		0.00		No	No	No				No	2010	BMW	112.356	78	2	112.356	+9.341	+9.341	112.356	78	1	112.356								
+ts	27	7	Brandi	Herrera	228i	White	female		27	No					Yes	No		No		0.00		No	No	Yes				No	2015	BMW	115.539	87	1	115.539	+3.183	+12.524	115.539	87	4	120.271		116.202		116.539		115.539		
+tm	55	8	Scott	Sansom	135i	White			55	No					Yes	No		No		0.00		No	No	No				No	2012	BMW	102.412	26	1	102.412	[-]4.471	-	102.412	26	3	102.621		102.828		102.412				
+tm	17	8	Chris	Ross	135i	Space Grey			17	No					Yes	No		No		0.00		No	No	Yes				No	2011	BMW	106.883	56	1	106.883	+4.471	+4.471	106.883	56	4	110.351		107.732		107.403		106.883		
+tm	37	8	Garland	McMurray II	335i	Brown			37	No					Yes	No		No		0.00		No	No	Yes				No	2007	BMW	108.401	62	2	108.401	+1.518	+5.989	108.401	62	4	109.684		110.536		109.901		108.401		
+tm	18	8	Mikey	Ross	135i	Space Grey			18	No					Yes	No		No		0.00		No	No	Yes				No	2011	BMW	111.310	71	1	111.310	+2.909	+8.898	111.310	71	4	112.853	5	112.095	1	111.627	1	111.310		
+tm	44	8	Ryan	McCarthy	550i	White			44	No					Yes	No		No		0.00		No	No	Yes				No	2014	BMW	111.935	76	4	111.935	+0.625	+9.523	111.935	76	4	119.835		113.938		113.847		111.935		
+ms	188	9	Greg	Uhler	M2	Grey			188	No					Yes	No		No		0.00		No	No	No				No	2016	BMW	97.553	7	1	97.553	[-]0.197	-	97.553	7	3	109.911	dnf	98.598		97.553		97.063	1	
+ms	703	9	Shawn	Flanagan	1M	Valencia Orange			703	No					Yes	No		No		0.00		No	No	No				No	2011	BMW	97.750	8	1	97.750	+0.197	+0.197	97.750	8	3	101.573	2	98.920		97.750		99.015		
+ms	29	9	murat	ebesek	M2	LBB			29	No					Yes	No		No		0.00		No	No	No				No	2017	BMW	98.424	12	1	98.424	+0.674	+0.871	98.424	12	2	98.571		98.424		86.341	dnf	98.606		
+ms	77	9	Jack	Roybal	M3	Black			77	No					Yes	No		No		0.00		No	No	No				No	1999	BMW	104.241	37	4	104.241	+5.817	+6.688	104.241	37	3	104.713		104.339		104.241		118.312	5	
+ms	54	9	Tyler	Johnson	Z4 M Coupe	Black			54	No					Yes	No		No		0.00		No	No	No				No	2007	BMW	108.181	60	2	108.181	+3.940	+10.628	108.181	60	1	108.181		109.451		108.878		109.342		
+ms	19	9	Koray	Kayhan	E46 M3	Blue			19	No					Yes	No		No		0.00		No	No	Yes				No	2003	BMW	108.257	61	1	108.257	+0.076	+10.704	108.257	61	3	109.465		108.993		108.257		135.498	3	
+ms	39	9	Ari	Colton	M3	White			39	No					Yes	No		No		0.00		No	No	No				No	1997	BMW	109.249	69	1	109.249	+0.992	+11.696	109.249	69	2	111.729	1	109.249		109.018	1	126.121	dnf	
+ms	28	9	Mort	Mirmontazeri	M3	Silver			28	No					Yes	No		No		0.00		No	No	Yes				No	1996	BMW	117.052	90	2	117.052	+7.803	+19.499	117.052	90	3	118.244		119.872		117.052		117.588	dnf	
+ms	117	9	Ethan	Bentel	M3	Silver			117	No					Yes	No		No		0.00		No	No	Yes				No	1999	BMW	121.679	93	3	121.679	+4.627	+24.126	121.679	93	4	129.606	1	127.443		123.363		121.679		
+mps	40	10	Jan	Godoski	M3	Yas Marina Blue			40	No					Yes	No		No		0.00		No	No	No				No	2015	BMW	103.396	30	1	103.396	[-]2.120	-	103.396	30	4	106.459		103.721		103.526		103.396		
+mps	342	10	Vinh	Ly	M3	Yellow			342	No					Yes	No		No		0.00		No	No	No				No	2015	BMW	105.516	48	1	105.516	+2.120	+2.120	105.516	48	3	105.987	1	105.705	1	105.516		112.340	dnf	
+mps	23	10	Jordan	Millikan	M5	Anthracite			23	No					Yes	No		No		0.00		No	No	Yes				No	2001	BMW	108.652	66	1	108.652	+3.136	+5.256	108.652	66	3	111.889		110.498		108.652		109.294		
+mm	333	11	Jason	Brown	M3	Black			333	No					Yes	No		No		0.00		No	No	No				No	2006	BMW	101.324	21	1	101.324	[-]0.783	-	101.324	21	2	101.559		101.324		101.865		101.911		
+mm	53	11	Jonathan	King	M3	Boston Green			53	No					Yes	No		No		0.00		No	No	No				No	1998	BMW	102.107	23	2	102.107	+0.783	+0.783	102.107	23	2	103.630		102.107		103.050	1	102.667		
+mm	211	11	Zidong	Jiang	M3	Silver			211	No		2017-07-22	0000-00-00		Yes	No		No		0.00		No	No	No				No	2002	BMW	103.739	32	2	103.739	+1.632	+2.415	103.739	32	3	105.294		105.932		103.739		106.582	2	
+mm	123	11	Steve	Peoples	m coupe	red			123	No					Yes	No		No		0.00		No	No	No				No	1999	BMW	104.497	40	4	104.497	+0.758	+3.173	104.497	40	2	105.416		104.497		105.781		104.770		
+mm	16	11	Charles	Engen	E46 M3	Aegean Blue			16	No					Yes	No		No		0.00		No	No	No				No	2004	BMW	106.559	53	5	106.559	+2.062	+5.235	106.559	53	4	107.763		107.265		106.858		106.559		
+mm	111	11	Sal A	Buzzetta	M3	Techno-Violet			111	No					Yes	No		No		0.00		No	No	No				No	1997	BMW	106.808	54	5	106.808	+0.249	+5.484	106.808	54	3	107.138		107.783		106.808		107.080		
+mm	921	11	John	Artz	M3	Black			921	No					Yes	No		No		0.00		No	No	No				No	1995	BMW	106.828	55	6	106.828	+0.020	+5.504	106.828	55	4	110.881		107.751		106.940		106.828		
+mm	161	11	Sal J	Buzzetta	M3	Techno-Violet			161	No					Yes	No		No		0.00		No	No	No				No	1997	BMW	108.131	58	5	108.131	+1.303	+6.807	108.131	58	4	111.075		108.946		108.772		108.131		
+mm	92	11	James	Goodale	M3	Black			92	No					Yes	No		No		0.00		No	No	No				No	1995	BMW	109.189	68	8	109.189	+1.058	+7.865	109.189	68	2	109.361		109.189		107.007	2	109.795		
+mm	51	11	Kali	Mistry	325it	Black			51	No					Yes	No		No		0.00		No	No	No				No	2002	BMW	dns	95		dns				95										
+mpm	12	12	Ludovico	Verducci	M4 Coupe	Black			12	No					Yes	No		No		0.00		No	No	No				No	2016	BMW	100.966	19	1	100.966	[-]1.694	-	100.966	19	4	102.723		109.897	4	100.724	1	100.966		
+mpm	954	12	Ryan	Moore	M3	LagunaSeca Blue			954	No					Yes	No		No		0.00		No	No	No				No	2015	BMW	102.660	27	1	102.660	+1.694	+1.694	102.660	27	4	104.149	1	103.101		103.882		102.660		
+mpm	100	12	Tom	Fota	M4 Coupe	Sakhir Orange			100	No					Yes	No		No		0.00		No	No	No				No	2016	BMW	105.062	44	2	105.062	+2.402	+4.096	105.062	44	4	105.171	1	104.927	2	105.831		105.062		
+mpm	35	12	Ashley	Andreoli	M3	SGM	female		35	No					Yes	No		No		0.00		No	No	No				No	2008	BMW	108.158	59	3	108.158	+3.096	+7.192	108.158	59	3	114.412	1	111.942	1	108.158		108.784		
+x	149	13	Ken	Motonishi	MX-5	Orange			149	No					Yes	No		No		0.00		No	No	No				No	2016	Mazda	95.865	4	1	95.865	[-]1.300	-	95.865	4	2	96.102		95.865		96.256		97.014		
+x	20	13	Julien	Brandt	Catfish	White			20	No					Yes	No		No		0.00		No	No	No				No	2015	Bauer	97.165	5	2	97.165	+1.300	+1.300	97.165	5	4	97.758		96.868	1	97.193		97.165		
+x	651	13	Robert	DeuPree	Viper	Red/Black			651	No					Yes	No		No		0.00		No	No	No				No	2010	Dodge	97.834	9	3	97.834	+0.669	+1.969	97.834	9	3	99.753		98.591	1	97.834		99.038		
+x	406	13	Robert	Joe	MX-5	Velocity Red			406	No					Yes	No		No		0.00		No	No	No				No	2012	Mazda	98.131	11	4	98.131	+0.297	+2.266	98.131	11	3	98.267		98.402		98.131		105.398	dnf	
+x	116	13	Scott	Schubert	Elise	blue			116	No					Yes	No		No		0.00		No	No	No				No	2005	Lotus	98.655	13	4	98.655	+0.524	+2.790	98.655	13	4	102.590		99.319		99.111	3	98.655		
+x	410	13	Andreas	Kottke	Exige	Orange			410	No					Yes	No		No		0.00		No	No	No				No	2006	Lotus	98.725	14	5	98.725	+0.070	+2.860	98.725	14	3	100.328		98.947		98.725		104.402		
+x	600	13	Carl	Lewis	Miata	black			600	No					Yes	No		No		0.00		No	No	No				No	2006	Mazda	99.375	15	5	99.375	+0.650	+3.510	99.375	15	3	99.758		99.716		99.375		99.452		
+x	13	13	David	Rizzo	Corvette C6 Z06	Yellow			13	No					Yes	No		No		0.00		No	No	No				No	2007	Chevrolet	99.473	16	8	99.473	+0.098	+3.608	99.473	16	2	99.536		99.473		99.526	1	119.929	dnf	
+x	10	13	Michael	Beale	Mustang GT	Green			10	No					Yes	No		No		0.00		No	No	No				No	2016	Ford	100.270	18	2	100.270	+0.797	+4.405	100.270	18	2	100.130	3	100.270						
+x	21	13	Sean	Dynes	308	Red			21	No					Yes	No		No		0.00		No	No	No				No	1981	Ferrari	102.019	22	2	102.019	+1.749	+6.154	102.019	22	2	102.595		102.019		103.422		103.278		
+x	787	13	Jacey	Cobb	MX-5	Red			787	No					Yes	No		No		0.00		No	No	No				No	2002	Maxda	102.312	24	5	102.312	+0.293	+6.447	102.312	24	3	114.171	2	103.572		102.312		101.285	3	
+x	873	13	Alan	Lewis	RX-8	Grey			873	No					Yes	No		No		0.00		No	No	No				No	2007	Mazda	102.397	25	4	102.397	+0.085	+6.532	102.397	25	1	102.397		102.666	3	103.090	2	102.672	3	
+x	868	13	Fred	Chen	Miata RF	Red			868	No					Yes	No		No		0.00		No	No	No				No	2017	Mazda	102.715	28	5	102.715	+0.318	+6.850	102.715	28	4	103.430		113.260	2	103.756	4	102.715		
+x	45	13	Andrew	Holman	Impreza 2.5RS	Red			45	No					Yes	No		No		0.00		No	No	No				No	1998	Subaru	104.025	34	11	104.025	+1.310	+8.160	104.025	34	2	106.347		104.025		105.245		104.172		
+x	378	13	Daniel	Ralston	RX-8	Grey			378	No					Yes	No		No		0.00		No	No	Yes				No	2007	Mazda	104.211	36	9	104.211	+0.186	+8.346	104.211	36	1	104.211		108.650	3	106.868		104.735	1	
+x	248	13	Mathieu	Hoffmann	Miata	Black			248	No					Yes	No		No		0.00		No	No	No				No	2000	Mazda	104.498	41	12	104.498	+0.287	+8.633	104.498	41	2	104.549		104.498		105.126	1	114.133	dnf	
+x	38	13	paul	catalano	350Z	Black			38	No					Yes	No		No		0.00		No	No	No				No	2007	Nissan	104.646	43	17	104.646	+0.148	+8.781	104.646	43	2	105.047	2	104.646		104.864	1	105.012	1	
+x	717	13	Pelton	Barnes	BRZ	Blue			717	No					Yes	No		No		0.00		No	No	No				No	2015	Subaru	105.235	47	3	105.235	+0.589	+9.370	105.235	47	2	108.477		105.235		105.438		105.274		
+x	36	13	Alisha	Wray	911	Graphite Blue	female		36	No					Yes	No		No		0.00		No	No	No				No	2017	Porsche	105.764	50	7	105.764	+0.529	+9.899	105.764	50	4	107.722		107.087	1	105.829		105.764		
+x	25	13	Nader	Ebeid	Miata	Silver			25	No					Yes	No		No		0.00		No	No	No				No	2011	Mazda	107.267	57	7	107.267	+1.503	+11.402	107.267	57	3	108.948		107.065	1	107.267		107.490		
+x	42	13	Zhenyu	Huang	Camaro	White			42	No					Yes	No		No		0.00		No	No	No				No	2016	Chevrolet	108.406	63	9	108.406	+1.139	+12.541	108.406	63	3	111.309		108.585	1	108.406		110.227		
+x	30	13	Doug	Makino	Miata	Black			30	No					Yes	No		No		0.00		No	No	Yes				No	1993	Mazda	108.439	64	4	108.439	+0.033	+12.574	108.439	64	4	114.652		109.736		108.815		108.439		
+x	41	13	Peter	Clode	Golf R	Graphite			41	No					Yes	No		No		0.00		No	No	Yes				No	2012	VW	108.577	65	1	108.577	+0.138	+12.712	108.577	65	4	111.061		110.835		109.120		108.577		
+x	22	13	Trevor	Haag	Protege 5	Red			22	No					Yes	No		No		0.00		No	No	Yes				No	2003	Mazda	109.017	67	1	109.017	+0.440	+13.152	109.017	67	4	112.854	1	111.034		109.840		109.017		
+x	102	13	Mike	Jones	Corvette	White			102	No					Yes	No		No		0.00		No	No	Yes				No	1995	Chevrolet	111.345	72	18	111.345	+2.328	+15.480	111.345	72	4	112.635		117.237	1	111.529		111.345		
+x	14	13	Brian	Yen	Cayman	Black			14	No					Yes	No		No		0.00		No	No	Yes				No	2016	Porsche	111.834	74	11	111.834	+0.489	+15.969	111.834	74	4	112.399	1	112.495	1	110.793	2	111.834		
+x	26	13	Jasmine	Ebeid	Miata	Silver	female		26	No					Yes	No		No		0.00		No	No	Yes				No	2011	Mazda	111.918	75	3	111.918	+0.084	+16.053	111.918	75	3	110.280	1	127.186	4	111.918		110.225	2	
+x	32	13	Caleb	Dalrymple	350z	Silver			32	No					Yes	No		No		0.00		No	No	No				No	2007	Nissan	112.364	79	4	112.364	+0.446	+16.499	112.364	79	2	113.688		112.364		113.367		112.525		
+x	133	13	Hank	Yamfang	S2000	Gray			133	No					Yes	No		No		0.00		No	No	No				No	2001	Honda	112.429	81	26	112.429	+0.065	+16.564	112.429	81	1	110.429	1	119.175		113.358	1	116.651	1	
+x	15	13	Kathi	Van Der Werf	124 Spider Abarth	Grigio Argento	female		15	No					Yes	No		No		0.00		No	No	Yes				No	2017	Fiat	112.513	82	9	112.513	+0.084	+16.648	112.513	82	4	115.932	1	113.172		111.693	4	112.513		
+x	56	13	Matthew	Wilson	LC500	Black			56	No					Yes	No		No		0.00		No	No	Yes				No	2018	Lexus	113.255	85	15	113.255	+0.742	+17.390	113.255	85	3	116.667		115.641		113.255		115.692		
+x	227	13	David	Brackman	Dino 308 gt/4	yellow			227	No					Yes	No		No		0.00		No	No	No				No	1975	Ferrari	115.075	86	5	115.075	+1.820	+19.210	115.075	86	4	124.436		115.348		117.243	dnf	115.075		
+x	1024	13	Wes	Jones	Corvette	White			1024	No					Yes	No		No		0.00		No	No	Yes				No	1995	Chevrolet	117.113	91	13	117.113	+2.038	+21.248	117.113	91	4	125.178		121.711		119.993		117.113		
+x	66	13	David	Clinkscales	miata	red			66	No					Yes	No		No		0.00		No	No	No				No	1996	Mazda	dns	96		dns				96										
+g	251	15	Mark	Mervich	RF90	blue/white			251	No					Yes	No		No		0.00		No	No	No				No	1990	Van Diemen	94.600	1	1	94.600	[-]0.511	-	94.600	1	1	94.600		95.207		95.661	1			
+g	49	15	Dan	Howard	MX-5	Orange			49	No					Yes	No		No		0.00		No	No	No				No	2016	Mazda	95.111	2	1	95.111	+0.511	+0.511	95.111	2	3	94.396	1	95.528		95.111				
+g	200	15	Brian	Goodwin	Miata	Blue			200	No					Yes	No		No		0.00		No	No	No				No	2017	Mazda	95.531	3	2	95.531	+0.420	+0.931	95.531	3	4	95.617		95.952	1	95.756		95.531		
+g	50	15	Emilio	Cervantes	GT350	Black			50	No					Yes	No		No		0.00		No	No	No				No	2017	Ford	97.324	6	3	97.324	+1.793	+2.724	97.324	6	4	100.203		99.688		99.906		97.324		
+g	137	15	William	Wong	Miata	Black Cherry			137	No					Yes	No		No		0.00		No	No	No				No	2004	Mazda	98.068	10	3	98.068	+0.744	+3.468	98.068	10	2	98.694	1	98.068		102.506	4	98.660	3	
+g	701	15	Rod	Lingren	Miata	green			701	No					Yes	No		No		0.00		No	No	No				No	1995	Mazda	99.882	17	6	99.882	+1.814	+5.282	99.882	17	2	95.836	3	97.882	1					
+g	24	15	Peter	Engels	M4 Coupe	Blue			24	No					Yes	No		No		0.00		No	No	No				No	2016	BMW	100.985	20	5	100.985	+1.103	+6.385	100.985	20	1	100.985		101.372		101.098		102.349		
+g	11	15	Satakal	Khalsa	323i	Red			11	No					Yes	No		No		0.00		No	No	No				No	2000	BMW	104.027	35	6	104.027	+3.042	+9.427	104.027	35	3	103.024	2	101.087	3	102.027	1	104.307	4	
+g	31	15	Tim	Seargeant	M235i	Blue			31	No					Yes	No		No		0.00		No	No	No				No	2015	BMW	105.133	46	6	105.133	+1.106	+10.533	105.133	46	4	106.225		105.552		106.180		105.133		
+g	336	15	Lisa	Goehring	M3	Green	female		336	No					Yes	No		No		0.00		No	No	No				No	1995	BMW	106.214	51	4	106.214	+1.081	+11.614	106.214	51	3	111.031	2	105.344	1	106.214		106.614		
+g	46	15	Randall	Harris	128i	Black			46	No					Yes	No		No		0.00		No	No	No				No	2012	BMW	110.848	70	7	110.848	+4.634	+16.248	110.848	70	3	115.720		112.177		110.848				

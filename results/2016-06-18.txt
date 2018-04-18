@@ -1,0 +1,101 @@
+Class	Number	CW	First Name	Last Name	Car Model	Car Color	Gender	Year	Barcode	Member	Member #	Expires	DOB	Age	Registered	Reg.CheckIn	OLR	Paid	Fee Type	Amnt.	Method	Annual Tech	Annual Waiver	Rookie	Run Heat	Work Heat	Work Assignment	Checkin	Sponsor	Tire Brand	Raw Time	Raw Pos.	Prev. Pos.	Total	Diff.	From 1st	Pax Time	Pax Pos.	Best Run	Run 1	Pen 1	Run 2	Pen 2	Run 3	Pen 3
+NAS	1	5	Walter	Gates	325i	White	Male	2020	1	No					Yes	No		No		0		No	No	No				No			74.614	83	4	74.614	3.353	6.486	74.614	83	3	77.043		75.874		74.614	
+NAS	7	5	Harry	Weiss	Z3-2.8	black	Male	2020	7	No					Yes	No		No		0		No	No	No				No			70.299	61	2	70.299	2.171	2.171	70.299	61	2	71.935		70.299		69.935	2
+NAS	8	5	Michael	Gates	325i	White	Male	2020	8	No					Yes	No		No		0		No	No	No				No			71.261	68	3	71.261	0.962	3.133	71.261	68	3	76.678		71.349		71.261	
+MM	10	11	Alfred	Ramirez	M3	Black	Male	2020	10	No					Yes	No		No		0		No	No	No				No			71.569	70	2	71.569	1.797	6.628	71.569	70	2	72.303		71.569		72.758	
+G	11	15	Satakal	Khalsa	323i	Red	Male	2020	11	No					Yes	No		No		0		No	No	No				No			67.728	40	10	67.728	0.336	6.067	67.728	40	1	67.728		70.241	1	67.91	
+MM	12	11	AJ	Halsey	M3	Black	Male	2020	12	No					Yes	No		No		0		No	No	No				No			71.724	71	3	71.724	0.155	6.783	71.724	71	2	70.587	1	71.724		71.195	1
+MM	15	11	Evan	Ford	M3	silver	Male	2020	15	No					Yes	No		No		0		No	No	No				No			65.531	20	1	65.531	0.106	0.59	65.531	20	2	66.204		65.531		66.071	
+MM	16	11	Dana	Ford	M3	silver	Male	2020	16	No					Yes	No		No		0		No	No	No				No			73.083	81	14	73.083	1.002	8.142	73.083	81	3	76.137		74.298		73.083	
+X	18	13	Justin	Nevitt	sti	dark gray	Male	2020	18	No					Yes	No		No		0		No	No	No				No			67.333	35	5	67.333	0.065	3.874	67.333	35	3	70.051	2	68.16		67.333	
+X	19	13	David	Clinkscales	miata	red	Male	2020	19	No					Yes	No		No		0		No	No	No				No			69.954	58	9	69.954	0.275	6.495	69.954	58	3	71.018		71.301		69.954	
+X	21	13	Ian	Gonia	s2000	silver	Male	2020	21	No					Yes	No		No		0		No	No	Yes				No			70.937	66	4	70.937	0.7	7.478	70.937	66	3	74.063	1	71.957		70.937	
+MPS	23	10	Zaven	Gassian	M3	Mineral White	Male	2020	23	No					Yes	No		No		0		No	No	Yes				No			68.092	45	2	68.092	0.204	0.204	68.092	45	1	68.092		69.757		66.726	2
+G	24	15	Peter	Engels	M3	Silverstone	Male	2020	24	No					Yes	No		No		0		No	No	No				No			64.418	10	3	64.418	0.194	2.757	64.418	10	3	64.459		64.729	1	64.418	
+TM	26	8	Sean	Nesbitt	335i	grey	Male	2020	26	No					Yes	No		No		0		No	No	No				No			71.385	69	2	71.385	0.663	5.944	71.385	69	3	73.369	1	72.542		71.385	
+MPS	27	10	Ryan	Maher	M3	Yas Marina Blue	Male	2020	27	No					Yes	No		No		0		No	No	Yes				No			70.927	65	5	70.927	1.251	3.039	70.927	65	3	72.435	1	72.318	1	70.927	
+X	28	13	Andrew	Jensen	Mustang	Kona Blue	Male	2020	28	No					Yes	No		No		0		No	No	Yes				No			74.712	85	25	74.712	0.323	11.253	74.712	85	3	75.491		74.969		74.712	
+TS	29	7	Karl	Ludwig	328i	Grey	Male	2020	29	No					Yes	No		No		0		No	No	No				No			75.72	87	1	75.72	3.827	9.315	75.72	87	1	75.72		75.385	1	76.133	
+MS	30	9	Shawn	Flanagan	1M	Valencia Orange	Male	2020	30	No					Yes	No		No		0		No	No	No				No			64.623	12	1	64.623	[-]1.511	-	64.623	12	2	66.337		64.623		64.861	2
+X	31	13	David	Rizzo	Corvette C5 Z06	Yellow	Male	2020	31	No					Yes	No		No		0		No	No	Yes				No			69.679	56	8	69.679	0.009	6.22	69.679	56	3	71.335		83.978	DNF	69.679	
+LC	32	3	Ryan	Bledsoe	327is	Red	Male	2020	32	No					Yes	No		No		0		No	No	Yes				No			71.816	73	3	71.816	3.45	6.884	71.816	73	3	72.866		73.002		71.816	
+X	33	13	Julien	Brandt	Catfish	White	Male	2020	33	No					Yes	No		No		0		No	No	No				No			66.305	28	2	66.305	0.029	2.846	66.305	28	3	68.129	2	66.912		66.305	
+NAS	34	5	Michael	Durant	330i	Red	Male	2020	34	No					Yes	No		No		0		No	No	No				No			76.001	88	3	76.001	1.387	7.873	76.001	88	1	76.001		76.231	2	74.442	2
+MC	35	4	Ron	Escudero	Cooper S cabrio	Gray	Male	2020	35	No					Yes	No		No		0		No	No	No				No			68.041	43	1	68.041	-	-	68.041	43	2	69.147	1	68.041		68.308	
+TS	36	7	Kurt	Millson	535i	Grey	Male	2020	36	No					Yes	No		No		0		No	No	No				No			70.63	63	3	70.63	0.396	4.225	70.63	63	3	71.518	1	71.171		70.63	
+MM	37	11	Bryant	Nguyen	M3	Red	Male	2020	37	No					Yes	No		No		0		No	No	No				No			65.425	16	1	65.425	0.292	0.484	65.425	16	1	65.425		65.139	1	65.96	
+TS	38	7	Gian	Rosas-DiMaggio	135i	Black	Male	2020	38	No					Yes	No		No		0		No	No	Yes				No			71.783	72	3	71.783	1.153	5.378	71.783	72	2	76.124		71.783		72.511	
+X	39	13	Patrick	Ailes	Miata	Green	Male	2020	39	No					Yes	No		No		0		No	No	Yes				No			68.693	50	16	68.693	0.652	5.234	68.693	50	3	71.107	1	70.261		68.693	
+X	40	13	Steve	Bloum	Miata	Green	Male	2020	40	No					Yes	No		No		0		No	No	Yes				No			70.237	60	21	70.237	0.283	6.778	70.237	60	3	70.801	1	86.022		70.237	
+NAM	41	6	Peter	Bush	325i	Black	Male	2020	41	No					Yes	No		No		0		No	No	No				No			68.732	51	1	68.732	[-]1.684	-	68.732	51	3	69.459		68.85		68.732	
+TM	42	8	Rob	Walker	M235i	white	Male	2020	42	No					Yes	No		No		0		No	No	No				No			65.441	18	1	65.441	[-]0.068	-	65.441	18	3	65.713		68.274	DNF	65.441	
+TM	43	8	Kevin	Teague	135i	white	Male	2020	43	No					Yes	No		No		0		No	No	No				No			65.509	19	2	65.509	0.068	0.068	65.509	19	2	66.499		65.509		65.787	
+MPM	44	12	Rob	Jones	M3	White	Male	2020	44	No					Yes	No		No		0		No	No	No				No			66.008	22	1	66.008	[-]1.231	-	66.008	22	3	68.557		66.713		66.008	
+MS	45	9	Paul	Hualde	M3	black	Male	2020	45	No					Yes	No		No		0		No	No	No				No			67.776	41	2	67.776	1.642	3.153	67.776	41	2	68.664		67.776		68.414	
+MPS	46	10	Tim	Miller	M3	Silver	Male	2020	46	No					Yes	No		No		0		No	No	Yes				No			71.136	67	4	71.136	0.209	3.248	71.136	67	3	73.716		73.164		71.136	
+LC	47	3	Mark	Schmitt	318is	Gray	Male	2020	47	No					Yes	No		No		0		No	No	Yes				No			72.264	78	3	72.264	0.448	7.332	72.264	78	3	74.579		73.573		72.264	
+X	48	13	paul	catalano	civic	black	Male	2020	48	No					Yes	No		No		0		No	No	No				No			66.074	24	5	66.074	0.503	2.615	66.074	24	3	67.344		68.172		66.074	
+MM	49	11	Jason	Brown	M3	Jet Black	Male	2020	49	No					Yes	No		No		0		No	No	No				No			67.699	39	8	67.699	0.363	2.758	67.699	39	2	69.764		67.699		67.347	1
+MM	50	11	Frutoso	Gonzalez	m3	estoril blue	Male	2020	50	No					Yes	No		No		0		No	No	Yes				No			69.772	57	10	69.772	1.359	4.831	69.772	57	3	72.832		71.108		69.772	
+TS	51	7	Michal	Grupa	335i M_Sport	Le Mans Blue	Male	2020	51	No					Yes	No		No		0		No	No	Yes				No			71.893	74	5	71.893	0.11	5.488	71.893	74	3	73.333		72.067		71.893	
+G	52	15	Greg	Dean	328i	White	Male	2020	52	No					Yes	No		No		0		No	No	No				No			66.408	30	2	66.408	1.864	4.747	66.408	30	3	66.864		67.396		66.408	
+MPS	53	10	Jeff	Bouchard	M3	Silver	Male	2020	53	No					Yes	No		No		0		No	No	Yes				No			69.676	55	4	69.676	1.149	1.788	69.676	55	3	70.009	2	70.224		69.676	
+TS	54	7	Richard	Le	M235i	Estoril Blue	Male	2020	54	No					Yes	No		No		0		No	No	No				No			70.234	59	1	70.234	3.829	3.829	70.234	59	3	71.973		70.754		70.234	
+X	55	13	Jim	Ailes	FRS	White	Male	2020	55	No					Yes	No		No		0		No	No	No				No			67.268	34	4	67.268	0.344	3.809	67.268	34	1	67.268		67.625	1	67.284	
+TM	56	8	Greg	Armstrong	135i	red	Male	2020	56	No					Yes	No		No		0		No	No	No				No			70.722	64	3	70.722	5.213	5.281	70.722	64	3	72.493		72.486		70.722	
+MS	57	9	Zidong	Jiang	M3 Coupe	Silver	Male	2020	57	No					Yes	No		No		0		No	No	Yes				No			71.932	75	4	71.932	4.156	7.309	71.932	75	3	74.139	1	74.776		71.932	
+MPS	58	10	Stephen	Haase	M3	Blue	Male	2020	58	No					Yes	No		No		0		No	No	No				No			67.888	42	1	67.888	[-]0.204	-	67.888	42	3	68.713		68.865	1	67.888	
+LC	59	3	Owen	Nelson	325i	white	Male	2020	59	No					Yes	No		No		0		No	No	No				No			72.269	79	4	72.269	0.005	7.337	72.269	79	3	75.183	1	73.186		72.269	
+LC	60	3	Ben	Thongsai	325e	white	Male	2020	60	No					Yes	No		No		0		No	No	No				No			68.366	47	1	68.366	3.434	3.434	68.366	47	3	69.228		68.855		68.366	
+NAM	61	6	Jason	Wolf	328is	Black	Male	2020	61	No					Yes	No		No		0		No	No	No				No			70.416	62	2	70.416	1.684	1.684	70.416	62	2	71.101	4	70.416		69.829	3
+MPM	62	12	Brian	Johnston	M3	Orange	Male	2020	62	No					Yes	No		No		0		No	No	No				No			67.239	33	2	67.239	1.231	1.231	67.239	33	1	67.239		69.891	4	68.268	
+MS	63	9	Jack	Roybal	M3	Black	Male	2020	63	No					Yes	No		No		0		No	No	No				No			66.134	26	2	66.134	1.511	1.511	66.134	26	2	67.576		66.134		66.931	
+MPM	64	12	Blake	Johnston	M3	Mineral Grey	Male	2020	64	No					Yes	No		No		0		No	No	No				No			68.972	52	3	68.972	1.733	2.964	68.972	52	3	70.709		69.276		68.972	
+MM	65	11	Jonathan	King	M3	Boston Green	Male	2020	65	No					Yes	No		No		0		No	No	No				No			66.02	23	3	66.02	0.489	1.079	66.02	23	3	67.596	1	66.953	1	66.02	
+G	66	15	Brian	Goodwin	Miata	Blue	Male	2020	66	No					Yes	No		No		0		No	No	No				No			61.661	1	1	61.661	[-]1.363	-	61.661	1	3	63.477	3	62.102		61.661	
+X	67	13	Ryan	Stephenson	Miata	red	Male	2020	67	No					Yes	No		No		0		No	No	Yes				No			78.58	96	26	78.58	3.868	15.121	78.58	96	2	91.712	DNF	74.58	2	88.747	DNF
+MM	69	11	Lisa	Goehring	M3	Green	Female	2020	69	No					Yes	No		No		0		No	No	No				No			67.052	32	4	67.052	1.032	2.111	67.052	32	3	67.464		68.517		67.052	
+G	70	15	Ian	Allegoren	325i	Red/White	Male	2020	70	No					Yes	No		No		0		No	No	No				No			63.19	3	2	63.19	0.166	1.529	63.19	3	1	63.19		63.539	4	62.438	1
+MM	71	11	Austin	Caldwell	M3	Black	Male	2020	71	No					Yes	No		No		0		No	No	Yes				No			72.081	76	13	72.081	0.357	7.14	72.081	76	2	72.835		72.081		72.689	
+G	72	15	Nick	Owen	M3	white	Male	2020	72	No					Yes	No		No		0		No	No	No				No			67.392	37	1	67.392	0.984	5.731	67.392	37	3	69.207	1	68.474	1	67.392	
+X	80	13	Michael	Korody	Miata	Black	Male	2020	80	No					Yes	No		No		0		No	No	No				No			67.572	38	11	67.572	0.239	4.113	67.572	38	2	69.116	DNF	67.572		67.602	
+X	82	13	Henry	Botkin	Z06	Black	Male	2020	82	No					Yes	No		No		0		No	No	No				No			63.685	5	2	63.685	0.226	0.226	63.685	5	3	63.791	1	62.505	1	63.685	
+MM	88	11	Michael	Yip	M3	Silver Gray	Male	2020	88	No					Yes	No		No		0		No	No	No				No			67.336	36	7	67.336	0.284	2.395	67.336	36	1	67.336		70.998		67.387	2
+X	116	13	Scott	Schubert	Elise	Blue	Male	2020	116	No					Yes	No		No		0		No	No	No				No			64.32	9	2	64.32	0.003	0.861	64.32	9	1	64.32		63.709	1	72.026	DNF
+X	118	13	Patrick	D'Auria	TT	Black	Male	2020	118	No					Yes	No		No		0		No	No	No				No			66.089	25	1	66.089	0.015	2.63	66.089	25	3	66.164		66.477		66.089	
+G	137	15	William	Wong	Miata	Black Cherry	Male	2020	137	No					Yes	No		No		0		No	No	No				No			64.224	7	4	64.224	0.389	2.563	64.224	7	3	65.336	1	63.808	1	64.224	
+MM	174	11	Roland	Bartsch	M3	Steel Gray	Male	2020	174	No					Yes	No		No		0		No	No	No				No			64.941	14	1	64.941	[-]0.192	-	64.941	14	3	66.703	2	65.367		64.941	
+X	212	13	Lori	Schult	500 Abarth	Red	Female	2020	212	No					Yes	No		No		0		No	No	No				No			72.471	80	23	72.471	1.534	9.012	72.471	80	2	75.029	2	72.471		73.495	1
+X	248	13	Mathieu	Hoffmann	Miata	Black	Male	2020	248	No					Yes	No		No		0		No	No	No				No			64.317	8	3	64.317	0.632	0.858	64.317	8	3	65.082		65.209	1	64.317	
+G	251	15	Mark	Mervich	RF90	blue/white	Male	2020	251	No					Yes	No		No		0		No	No	No				No			63.024	2	2	63.024	1.363	1.363	63.024	2	2	63.685		63.024		63.614	
+MS	282	9	Sidney	Chang	M3	Phoenix Yellow	Female	2020	282	No					Yes	No		No		0		No	No	No				No			75.503	86	3	75.503	3.571	10.88	75.503	86	1	67.503	4	79.674	DNF	130.524	DNF
+NAS	328	5	Hans	Voigt	328i	Black	Male	2020	328	No					Yes	No		No		0		No	No	No				No			68.128	46	1	68.128	[-]2.171	-	68.128	46	3	69.825	2	69.558		68.128	
+G	337	15	Sean	Thomson	Miata	White	Male	2020	337	No					Yes	No		No		0		No	No	No				No			63.835	6	2	63.835	0.645	2.174	63.835	6	3	65.219	1	65.351	DNF	63.835	
+MPS	342	10	Vinh	Ly	M3	Austin Yellow	Male	2020	342	No					Yes	No		No		0		No	No	No				No			68.527	49	3	68.527	0.435	0.639	68.527	49	3	73.449	1	68.769	1	68.527	
+NAM	389	6	Jeffrey	Gaines	325Ci	Silver	Male	2020	389	No					Yes	No		No		0		No	No	No				No			72.263	77	3	72.263	1.847	3.531	72.263	77	3	77.385		73.484		72.263	
+NAM	404	6	Robert	"Yorba, IV"	325i	Glacier Blue	Male	2020	404	No					Yes	No		No		0		No	No	No				No			74.687	84	4	74.687	2.424	5.955	74.687	84	2	75.383	DNF	74.687		76.691	
+X	406	13	Robert	Joe	MX-5	Velocity Red	Male	2020	406	No					Yes	No		No		0		No	No	No				No			63.459	4	1	63.459	[-]0.226	-	63.459	4	3	69.127	DNF	64.43		63.459	
+X	410	13	Andreas	Kottke	Exige	Orange	Male	2020	410	No					Yes	No		No		0		No	No	No				No			66.276	27	2	66.276	0.187	2.817	66.276	27	3	69.561	3	66.819		66.276	
+MM	413	11	Mark	Farmer	M3	Silver	Male	2020	413	No					Yes	No		No		0		No	No	No				No			65.133	15	1	65.133	0.192	0.192	65.133	15	3	65.67		65.376		65.133	
+RO	501	2	Roland	Barsh	Machine	RBG	Male	2020	501	No		6/18/2016	0000-00-00		Yes	No		No		0		No	No	No				No			77.811	94	1	77.811	0.424	1.593	77.811	94	2	79.765		77.811			
+RO	502	2	Shawn	Flanagan	Machine	RBG	Male	2020	502	No		6/18/2016	0000-00-00		Yes	No		No		0		No	No	No				No			76.218	89	1	76.218	[-]0.270	-	76.218	89	2	77.866	DNF	76.218			
+RO	503	2	Hans	Voight	Machine	RBG	Male	2020	503	No		6/18/2016	0000-00-00		Yes	No		No		0		No	No	No				No			78.348	95	3	78.348	0.537	2.13	78.348	95	2	80.435		78.348			
+RO	504	2	Stephen	Haasse	Machine	RBG	Male	2020	504	No		6/18/2016	0000-00-00		Yes	No		No		0		No	No	No				No			79.542	97	4	79.542	1.194	3.324	79.542	97	2	80.311		79.542			
+RO	505	2	Clint	Boyd	Machine	RBG	Male	2020	505	No		6/18/2016	0000-00-00		Yes	No		No		0		No	No	No				No			76.488	90	2	76.488	0.27	0.27	76.488	90	2	77.672		76.488			
+RO	506	2	Rob	Jones	Machine	RBG	Male	2020	506	No		6/18/2016	0000-00-00		Yes	No		No		0		No	No	No				No			83.772	100	6	83.772	1.466	7.554	83.772	100	2	85.562		83.772			
+RO	507	2	Peter	Bush	Machine	RBG	Male	2020	507	No		6/18/2016	0000-00-00		Yes	No		No		0		No	No	No				No			80.051	98	6	80.051	0.509	3.833	80.051	98	2	80.546	1	80.051			
+RO	508	2	Ron	Escudero	Machine	RBG	Male	2020	508	No		6/18/2016	0000-00-00		Yes	No		No		0		No	No	No				No			82.306	99	7	82.306	2.255	6.088	82.306	99	1	82.306		95.78	1		
+RO	509	2	Rob	Walker	Machine	RBG	Male	2020	509	No		6/18/2016	0000-00-00		Yes	No		No		0		No	No	No				No			76.75	91	3	76.75	0.262	0.532	76.75	91	2	105.417	DNF	76.75			
+RO	510	2	Nicolas	Beier	Machine	RBG	Male	2020	510	No		6/18/2016	0000-00-00		Yes	No		No		0		No	No	No				No			77.271	92	4	77.271	0.521	1.053	77.271	92	2	79.412	1	77.271			
+RO	511	2	Robert	Joe	Machine	RBG	Male	2020	511	No		6/18/2016	0000-00-00		Yes	No		No		0		No	No	No				No			77.387	93	5	77.387	0.116	1.169	77.387	93	2	80.056		77.387			
+G	650	15	Andrew	Simmons	S2000	Dirt	Male	2020	650	No					Yes	No		No		0		No	No	No				No			64.544	11	5	64.544	0.126	2.883	64.544	11	3	65.547		64.581		64.544	
+X	658	13	Peter	Bloed	S2000	Dirt	Male	2020	658	No					Yes	No		No		0		No	No	Yes				No			69.67	54	14	69.67	0.666	6.211	69.67	54	3	71.73		76.457	DNF	69.67	
+TS	771	7	Clint	Boyd	M235i	Grey	Male	2020	771	No					Yes	No		No		0		No	No	No				No			66.405	29	1	66.405	[-]3.829	-	66.405	29	3	66.838		66.57		66.405	
+X	783	13	Karen	Callander	RX-8	gray	Female	2020	783	No					Yes	No		No		0		No	No	No				No			74.389	82	7	74.389	1.918	10.93	74.389	82	3	76.523	2	75.331	1	74.389	
+X	800	13	Carl	Lewis	Miata	black	Male	2020	800	No					Yes	No		No		0		No	No	No				No			66.924	31	11	66.924	0.619	3.465	66.924	31	3	66.342	2	66.406	2	66.924	
+X	837	13	Mark	Baysinger	RX-8	Gray	Male	2020	837	No					Yes	No		No		0		No	No	No				No			68.041	44	6	68.041	0.469	4.582	68.041	44	2	69.893		68.041		68.666	
+LC	878	3	Nicolas	Beier	325e	Blue	Male	2020	878	No					Yes	No		No		0		No	No	No				No			64.932	13	1	64.932	[-]3.434	-	64.932	13	3	66.362		65.38		64.932	
+MM	954	11	Ryan	Moore	M3	LagunaSeca Blue	Male	2020	954	No					Yes	No		No		0		No	No	No				No			68.413	48	2	68.413	0.714	3.472	68.413	48	3	70.355		69.47		68.413	
+X	975	13	Luis	Ramos	Cayman	Black	Male	2020	975	No					Yes	No		No		0		No	No	No				No			69.004	53	3	69.004	0.311	5.545	69.004	53	3	69.181		69.145		69.004	
+X	1012	13	Marc	Larochelle	C7 Stingray	Red	Male	2020	1012	No					Yes	No		No		0		No	No	No				No			65.429	17	3	65.429	1.109	1.97	65.429	17	3	65.443		64.968	1	65.429	
+X	1211	13	Keith	Larochelle	Exige S 240	Isotope Green	Male	2020	1211	No					Yes	No		No		0		No	No	No				No			65.571	21	4	65.571	0.142	2.112	65.571	21	2	68.953		65.571		76.03	1
