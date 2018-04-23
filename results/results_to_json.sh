@@ -11,8 +11,7 @@
 #
 
 declare extra=${1} # accept "extra", e.g. "date" :
-
-[[ -n ${extra} ]] && extra += ","
+[[ -n ${extra} ]] && extra+=,
 
 # delete any carriage returns
 tr -d $'\r' |
@@ -34,13 +33,17 @@ tr -d $'\r' |
     # read subsequent lines into array "fields"
     while IFS=$'\1' read -a values
     do
-        # echo ${#fields[*]} fields, ${#values[*]} values
+        declare record=
+            # echo ${#fields[*]} fields, ${#values[*]} values
         # prepend "extra" to each record
-        printf "{ ${extra}"
         for ((i=0; i < ${#fields[*]}; i++))
         do
-            printf "%s: \"%s\", " "${fields[i]}" "${values[i]}"
+            declare field=${fields[i]}
+
+            record+='"'"${fields[i]}"'":"'"${values[i]}"'",'
         done
-        printf "},\n"
+        printf "{%s%s}\n" "${extra}" "${record%,}"
     done
+
+
 )

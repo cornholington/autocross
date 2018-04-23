@@ -8,7 +8,7 @@ function esc()
     declare url=localhost/9200
     declare -a inputs=( )
     declare output='-'
-    declare outfd=0
+    declare outfd=1
     declare contenttype=application/json
     declare item=_search
 
@@ -69,7 +69,7 @@ Input and output file names can be \"-\" to indicate standard input
     ((OPTIND--))
     shift ${OPTIND}
 
-    (( ${#inputs[*]} )) || inputs=( 1 - )
+    (( ${#inputs[*]} )) || inputs=( 1 - ) # default is "whole stdin"
 
     if [[ ${output} != '-' ]]
     then
@@ -83,25 +83,32 @@ Input and output file names can be \"-\" to indicate standard input
     for ((i=0; i<${#inputs[*]}; i+=2))
     do
         declare infd=0
-        declare -i readargs=( )
+        declare -a readargs=( )
+        declare inmode=${inputs[i]}
+        declare infile=${inputs[i+1]}
 
-        case "${inputs[i]}" in
-            1) readargs=(-N ((2048*1024*1024-1))) ;;
-            0) readargs=(-d '$\0') ;;
+        # input mode for this input?
+        case "${inmode}" in
+            1) readargs=( -N $((2048*1024*1024-1)) );;
+            0) readargs=( -d $'\0') ;;
             # implied...   i) readargs=( ) ;;
         esac
 
-        if [[ ${inputs[i+1]} != '-' ]]
+        if [[ ${infile} != '-' ]]
         then
-            exec {infd}<${input[i]} || exit $?
+            exec {infd}<${infile} || exit $?
         fi
 
-        # for each body
+        # for each body...
         while (( 1 ))
         do
             declare body=
 
-            read -u ${infd} "${readargs[@]}" body
+            # read next body, line or zero mode, if empty, done unless in whole mode
+            read -u ${infd} "${readargs[@]}" body || [[ ${inmode} == 1 ]] || break;
+
+            # only accept empty body once
+            inmode=0
 
             declare request=${method}' '${item}' HTTP/1.1'$'\r''
 Host: '${url%%/*}$'\r''
@@ -120,11 +127,14 @@ Content-length: '${#body}$'\r''
             do
                 [[ -z ${header//$'\r'/} ]] && break;
 
-                [[ ${header[0],,} == "content-length" ]] && resplen=${value//$'\r'/}
+                [[ ${header[0],,} == "content-length" ]] && { resplen=${resplen// /}
+                                                              resplen=${resplen//$'\t'/}
+                                                              resplen=${resplen//$'\r'/}
+                }
             done
 
             declare resp=
-            read -u ${conn} -N ${resplen} resp
+            (( resplen )) && read -u ${conn} -N ${resplen} resp
 
             printf %s "${resp}" 1>&${outfd}
         done
