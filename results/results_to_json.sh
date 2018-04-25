@@ -10,40 +10,148 @@
 #   values separated by tabs
 #
 
-declare extra=${1} # accept "extra", e.g. "date" :
-[[ -n ${extra} ]] && extra+=,
+function results_to_json()
+{
+    declare examine=0
+    declare extra=${1} # accept "extra", e.g. "date" :
+    declare usage="
+Usage: results_to_json [OPTION]...
 
-# delete any carriage returns
-tr -d $'\r' |
-    # change tabs in the file to non-whitespace to prevent IFS collapsing
-    tr $'\t' $'\1' | (
+Convert an autocross results spreadsheet to json.
 
-    # read first line into array "fields", note IFS only applies to read
-    IFS=$'\1' read -a fields
+Options:
 
-    # the field names have to be cleaned up to be json keys
-    for ((i=0; i < ${#fields[*]}; i++))
+ -x          Examine, then exit.  Outputs a sample config file for the input data that
+                can be tweaked and passed as an argument to -c.  Each instance of -x
+                causes an additional sample record to be emitted.
+
+ -c <FILE>   Config file name.  Config is a bash program that describes how to map
+                input field names to output field names and describes what to do
+                with each field, e.g. treat as a string, a raw value (i.e. a number) or
+                omit entirely.  See the output of -x for more information.
+
+ -i <FILE>   Input file name, or \"-\" to indicate standard input (the default).
+                Multiple input files may be specified, each with -i.
+
+ -o <FILE>   Output file name, or \"-\" to indicate standard output
+                (the default).
+
+ -j <STR>    Include STR as part of every output record.  Useful for including
+                the event's date, for example: -j '{\"date\":\"2018-03-10\"}', in
+                conventional yyyy-MM-dd format.
+
+ -h          prints this message
+
+"
+
+    while getopts ":xi:o:h" opt
     do
-        fields[i]=${fields[i],,}          # lower-cased
-        fields[i]=${fields[i]// /_}       # ' ' changed to '_'
-        fields[i]=${fields[i]//./}        # '.' removed
-        fields[i]=${fields[i]//$'#'/num,} # '#' changed to "num"
+        case "${opt}" in
+            j) extra="${OPTARG}";;
+            i) inputs=( "${inputs[@]}" "${OPTARG}");;
+            o) output="${OPTARG}";;
+            x) ((examine++));;
+            c) config="${OPTARG}";;
+            h) printf %s "${usage}";;
+            [?]) printf 'unknown option \"-'%s'\"\n' "${OPTARG}"; exit 1;;
+        esac
     done
+    ((OPTIND--))
+    shift ${OPTIND}
 
-    # read subsequent lines into array "fields"
-    while IFS=$'\1' read -a values
-    do
-        declare record=
-            # echo ${#fields[*]} fields, ${#values[*]} values
-        # prepend "extra" to each record
-        for ((i=0; i < ${#fields[*]}; i++))
+    [[ -n ${extra} ]] && extra+=,
+
+    # delete any carriage returns
+    tr -d $'\r' |
+        # change tabs in the file to non-whitespace to prevent IFS collapsing
+        tr $'\t' $'\1' | (
+        declare -a ofields=( )
+        declare -a fields=( )
+        declare -a values=( )
+
+        # read first line into array "fields", note IFS only applies to read
+        IFS=$'\1' read -a ofields
+
+        # the field names have to be cleaned up to be json keys
+        for ((i=0; i < ${#ofields[*]}; i++))
         do
-            declare field=${fields[i]}
-
-            record+='"'"${fields[i]}"'":"'"${values[i]}"'",'
+            fields[i]=${ofields[i],,}         # lower-cased
+            fields[i]=${fields[i]// /_}       # ' ' changed to '_'
+            fields[i]=${fields[i]//./}        # '.' removed
+            fields[i]=${fields[i]//$'#'/num,} # '#' changed to "num"
         done
-        printf "{%s%s}\n" "${extra}" "${record%,}"
-    done
 
+        if (( examine ))
+        then
 
-)
+            printf '################## ofieldmap ####################
+## Maps original fields to values
+declare -A ofieldmap=('
+            for ((i=0; i < ${#ofields[*]}; i++))
+            do
+                printf '[%s]="%s"
+' "${ofields[i]}" "${fields[i]}"
+            done
+
+            printf ')
+'
+
+            printf '################## fieldmap ####################
+## Controls how each field is printed, as a printf format specifier.
+##  "%s" just makes a string.  If the field should be a number,
+##  omit the quotes.  If the field should be omitted from the output
+##  set to the empty string or remove the entry altogether
+##
+## TODO: more features, like True and False from zero and one?
+##
+declare -A fieldmap=('
+            for ((i=0; i < ${#fields[*]}; i++))
+            do
+                printf '[%s]=\"%%s\"
+' "${fields[i]}"
+            done
+
+            printf ')
+'
+            printf '################## sample json ####################
+## how the data is seen by default
+'
+            while (( examine-- ))
+            do
+                IFS=$'\1' read -a values
+                declare record=
+                # echo ${#fields[*]} fields, ${#values[*]} values
+                # prepend "extra" to each record
+                for ((i=0; i < ${#fields[*]}; i++))
+                do
+                    declare field=${fields[i]}
+
+                    record+='"'"${fields[i]}"'":"'"${values[i]}"'",'
+                done
+                printf "{%s%s}\n" "${extra}" "${record%,}"
+            done
+
+            return 0
+        fi
+
+        # read subsequent lines into array "fields"
+        while IFS=$'\1' read -a values
+        do
+            declare record=
+            # echo ${#fields[*]} fields, ${#values[*]} values
+            # prepend "extra" to each record
+            for ((i=0; i < ${#fields[*]}; i++))
+            do
+                declare field=${fields[i]}
+
+                record+='"'"${fields[i]}"'":"'"${values[i]}"'",'
+            done
+            printf "{%s%s}\n" "${extra}" "${record%,}"
+        done
+    )
+}
+
+if [[ ${0} == ${BASH_SOURCE[0]} ]]
+then
+    results_to_json "$@"
+fi
