@@ -60,8 +60,6 @@ Input and output file names can be \"-\" to indicate standard input
             [i01]) inputs=( "${inputs[@]}" "${opt}" "${OPTARG}");;
             o) output="${OPTARG}";;
             t) contenttype="${OPTARG}";;
-            v) verbose=1;;
-            d) dirs=( "${dirs[@]}" "${OPTARG}");;
             h) printf %s "${usage}";;
             [?]) printf 'unknown option \"-'%s'\"\n' "${OPTARG}"; exit 1;;
         esac
