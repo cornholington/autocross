@@ -12,8 +12,9 @@
 
 function results_to_json()
 {
+    declare config=
     declare examine=0
-    declare extra=${1} # accept "extra", e.g. "date" :
+    declare extra=
     declare usage="
 Usage: results_to_json [OPTION]...
 
@@ -44,7 +45,7 @@ Options:
 
 "
 
-    while getopts ":xi:o:h" opt
+    while getopts ":xc:i:o:h" opt
     do
         case "${opt}" in
             j) extra="${OPTARG}";;
@@ -68,6 +69,8 @@ Options:
         declare -a ofields=( )
         declare -a fields=( )
         declare -a values=( )
+        declare -A ofieldmap=( )
+        declare -A fieldmap=( )
 
         # read first line into array "fields", note IFS only applies to read
         IFS=$'\1' read -a ofields
@@ -107,47 +110,64 @@ declare -A ofieldmap=('
 declare -A fieldmap=('
             for ((i=0; i < ${#fields[*]}; i++))
             do
-                printf '[%s]=\"%%s\"
+                printf '[%s]=\\"%%s\\"
 ' "${fields[i]}"
             done
 
             printf ')
 '
             printf '################## sample json ####################
-## how the data is seen by default
+## how the data would look by default
 '
             while (( examine-- ))
             do
+                declare record=
+                [[ -n ${extra} ]] && record+='   '"${extra}"'
+'
                 IFS=$'\1' read -a values
+                # echo ${#fields[*]} fields, ${#values[*]} values
+                # prepend "extra" to each record
+                for ((i=0; i < ${#fields[*]}; i++))
+                do
+                    declare field=${fields[i]}
+                    declare value=
+
+                    printf -v value "${fieldmap[${field}]}" "${values[i]}" || exit $?
+
+                    record+='   "'"${field}"'":'"${value}"',
+'
+                done
+                record=${record%,$'\n'}
+                printf '# {
+#%s
+# }
+'  "${record//$'\n'/$'\n'$'#'}"
+            done
+
+        else
+            if [[ -n ${config} ]]
+            then
+                . "${config}" || exit $?
+            fi
+
+            # read subsequent lines into array "fields"
+            while IFS=$'\1' read -a values
+            do
                 declare record=
                 # echo ${#fields[*]} fields, ${#values[*]} values
                 # prepend "extra" to each record
                 for ((i=0; i < ${#fields[*]}; i++))
                 do
                     declare field=${fields[i]}
+                    declare value=
 
-                    record+='"'"${fields[i]}"'":"'"${values[i]}"'",'
+                    printf -v value "${fieldmap[${field}]}" "${values[i]}" || exit $?
+
+                    record+='"'"${field}"'":'"${value}"','
                 done
                 printf "{%s%s}\n" "${extra}" "${record%,}"
             done
-
-            return 0
         fi
-
-        # read subsequent lines into array "fields"
-        while IFS=$'\1' read -a values
-        do
-            declare record=
-            # echo ${#fields[*]} fields, ${#values[*]} values
-            # prepend "extra" to each record
-            for ((i=0; i < ${#fields[*]}; i++))
-            do
-                declare field=${fields[i]}
-
-                record+='"'"${fields[i]}"'":"'"${values[i]}"'",'
-            done
-            printf "{%s%s}\n" "${extra}" "${record%,}"
-        done
     )
 }
 
