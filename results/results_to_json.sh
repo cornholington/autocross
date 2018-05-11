@@ -33,12 +33,6 @@ Options:
                 with each field, e.g. treat as a string, a raw value (i.e. a number) or
                 omit entirely.  See the output of -x for more information.
 
- -i <FILE>   Input file name, or \"-\" to indicate standard input (the default).
-                Multiple input files may be specified, each with -i.
-
- -o <FILE>   Output file name, or \"-\" to indicate standard output
-                (the default).
-
  -j <STR>    Include STR as part of every output record.  Useful for including
                 the event's date, for example: -j '{\"date\":\"2018-03-10\"}', in
                 conventional yyyy-MM-dd format.
@@ -47,12 +41,10 @@ Options:
 
 "
 
-    while getopts ":xc:i:o:h" opt
+    while getopts ":xc:j:h" opt
     do
         case "${opt}" in
             j) extra="${OPTARG}";;
-            i) inputs=( "${inputs[@]}" "${OPTARG}");;
-            o) output="${OPTARG}";;
             x) ((examine++));;
             c) config="${OPTARG}";;
             h) printf %s "${usage}";;
@@ -62,15 +54,55 @@ Options:
     ((OPTIND--))
     shift ${OPTIND}
 
-    [[ -n ${extra} ]] && extra+=,
-
     # delete any carriage returns
     tr -d $'\r' |
         # change tabs in the file to non-whitespace to prevent IFS collapsing
         tr $'\t' $'\x01' | (
+
         declare -a fields=( )
         declare -a values=( )
         declare -A fieldmap=( )
+
+        # assumes examine, extra, fields, fieldmap, and values variable are set at entry
+        function do_record()
+        {
+            declare i=
+            declare prettywhite='    '
+            declare prettyline=$'\n'$'#'
+            declare record=
+
+            [[ -z $1 ]] && prettywhite= && prettyline=
+            [[ -n ${extra} ]] && record+=${prettywhite}${extra}','${prettyline}
+
+            for ((i=0; i < ${#fields[*]}; i++))
+            do
+                declare mapentry=${fieldmap[${fields[i]}]}
+                [[ -z ${mapentry} ]] && continue; # skip if absent
+
+                declare field=${mapentry%:*}
+                declare format=${mapentry#*:}
+                declare value=${values[i]}
+
+                # this sucks...  TODO: consider using a real language (i.e. not bash)
+                if [[ ${format} == '%d' || ${format} == '%f' ]]
+                then
+                    value=${value//$'['/} # some results look like "[-]0.368"
+                    value=${value//$']'/} # trim the brackets
+
+                    [[ ! ${values[i]} =~ [+-]?[0-9]+(.[0-9]+)? ]] && value=
+                fi
+
+                printf -v value "${format}" "${value}" || exit $?
+
+                record+="${prettywhite}"'"'"${field}"'":'"${value}"','"${prettyline}"
+            done
+            record=${record%${prettyline}} # trim trailing pretty linefeed
+            record=${record%,}             # trim trailing comma
+
+            printf "${prettyline}"'{'"${prettyline}"%s"${prettyline}"'}
+' "${record}"
+        }
+
 
         # read first line into array "fields", note IFS only applies to read
         IFS=$'\x01' read -a fields
@@ -121,78 +153,21 @@ Options:
 '
 
             printf '################## sample json ####################
-## how the data would look by default
-'
+## how the data would look with config set to %s
+' "${config:-default}"
+
             while (( examine-- ))
             do
-                declare record=
-                [[ -n ${extra} ]] && record+='   '"${extra}"'
-'
                 IFS=$'\x01' read -a values
-                # echo ${#fields[*]} fields, ${#values[*]} values
-                # prepend "extra" to each record
-                for ((i=0; i < ${#fields[*]}; i++))
-                do
-                    declare mapentry=${fieldmap[${fields[i]}]}
-                    [[ -z ${mapentry} ]] && continue; # skip if absent
 
-                    declare field=${mapentry%:*}
-                    declare format=${mapentry#*:}
-                    declare value=${values[i]}
-
-                    if [[ ${format} == '%d' || ${format} == '%f' ]]
-                    then
-                        value=${value//$'['/}
-                        value=${value//$']'/}
-                        value=${value#+*}
-
-                        [[ ! ${values[i]} =~ -?[0-9]+(.[0-9]+)? ]] && value=
-                    fi
-
-                    printf -v value "${format}" "${value}" || exit $?
-
-                    record+='   "'"${field}"'":'"${value}"',
-'
-                done
-                record=${record%,$'\n'}
-                printf '# {
-#%s
-# }
-'  "${record//$'\n'/$'\n'$'#'}"
+                do_record 1
             done
 
         else
             # read subsequent lines into array values
             while IFS=$'\x01' read -a values
             do
-                declare record=
-
-                for ((i=0; i < ${#fields[*]}; i++))
-                do
-                    declare mapentry=${fieldmap[${fields[i]}]}
-                    [[ -z ${mapentry} ]] && continue; # skip if absent
-
-                    declare field=${mapentry%:*}
-                    declare format=${mapentry#*:}
-                    declare value=${values[i]}
-
-                    # cleanup for numbers
-                    if [[ ${format} == '%d' || ${format} == '%f' ]]
-                    then
-                        value=${value//$'['/}
-                        value=${value//$']'/}
-                        value=${value#+*}
-
-                        [[ ! ${values[i]} =~ -?[0-9]+(.[0-9]+)? ]] && value=
-                    fi
-
-                    printf -v value "${format}" "${value}" || exit $?
-
-                    record+='"'"${field}"'":'"${value}"','
-                done
-
-                # prepend "extra" to each record
-                printf "{%s%s}\n" "${extra}" "${record%,}"
+                do_record
             done
         fi
     )
