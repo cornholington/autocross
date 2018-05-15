@@ -13,7 +13,9 @@ function esc()
     declare item=_search
 
 declare usage="
-Usage: esc [OPTION]...
+Usage:
+     esc [OPTION]... [METHOD] [ITEM]
+     esc [OPTION]... [ITEM]
 
 Submit Elasticsearch command(s).
 
@@ -24,7 +26,7 @@ Options:
 
  -n <ITEM>   The path to the Elasticsearch item, defaults to \"${item}\".
 
- -m <METHOD> Method to use, defaults to \"${method}\"
+ -x <METHOD> Method to use, defaults to \"${method}\"
 
  -i <FILE>   Input file name, line mode.  Files passed with -i are parsed
                 as one document per line.
@@ -40,7 +42,7 @@ Options:
  -t <TYPE>   HTTP Content-Type of the document, defaults to
                \"${contenttype}\"
 
- -h          prints this message
+ -h          prints this message and exits
 
 If more than one document is passed as input, the command is repeated
    for each document.
@@ -51,21 +53,26 @@ Input and output file names can be \"-\" to indicate standard input
 
 "
 
-    while getopts ":m:n:u:i:0:1:o:t:h" opt
+    while getopts ":x:n:u:i:0:1:o:t:h" opt
     do
         case "${opt}" in
-            m) method="${OPTARG}";;
+            x) method="${OPTARG}";;
             n) item="${OPTARG}";;
             u) url="${OPTARG}";;
             [i01]) inputs=( "${inputs[@]}" "${opt}" "${OPTARG}");;
             o) output="${OPTARG}";;
             t) contenttype="${OPTARG}";;
-            h) printf %s "${usage}";;
+            h) printf %s "${usage}"; exit 0;;
             [?]) printf 'unknown option \"-'%s'\"\n' "${OPTARG}"; exit 1;;
         esac
     done
     ((OPTIND--))
     shift ${OPTIND}
+
+    (( $# )) && item=$1
+    shift
+    (( $# )) && method=${item} && item=$1
+    shift
 
     (( ${#inputs[*]} )) || inputs=( 1 - ) # default is "whole stdin"
 
@@ -103,16 +110,18 @@ Input and output file names can be \"-\" to indicate standard input
             declare body=
 
             # read next body, line or zero mode, if empty, done unless in whole mode
-            read -u ${infd} "${readargs[@]}" body || [[ ${inmode} == 1 ]] || break;
+            read -r -u ${infd} "${readargs[@]}" body || [[ ${inmode} == 1 ]] || break;
 
             # only accept empty body once
             inmode=0
 
             declare request=${method}' '${item}' HTTP/1.1'$'\r''
 Host: '${url%%/*}$'\r''
-Content-Type: '${contenttype}$'\r''
+'
+            (( ${#body} )) && request+='Content-Type: '${contenttype}$'\r''
 Content-length: '${#body}$'\r''
-'$'\r''
+'
+            request+=$'\r''
 '${body}
 
             printf %s "${request}" 1>&${conn}
@@ -121,18 +130,18 @@ Content-length: '${#body}$'\r''
             declare value=
             declare resplen=0
 
-            while IFS=':' read -u ${conn} header value
+            while IFS=':' read -r -u ${conn} header value
             do
                 [[ -z ${header//$'\r'/} ]] && break;
 
-                [[ ${header[0],,} == "content-length" ]] && { resplen=${resplen// /}
+                [[ ${header[0],,} == "content-length" ]] && { resplen=${value// /}
                                                               resplen=${resplen//$'\t'/}
                                                               resplen=${resplen//$'\r'/}
                 }
             done
 
             declare resp=
-            (( resplen )) && read -u ${conn} -N ${resplen} resp
+            (( resplen )) && read -r -u ${conn} -N ${resplen} resp
 
             printf %s "${resp}" 1>&${outfd}
         done

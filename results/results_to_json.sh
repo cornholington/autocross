@@ -10,13 +10,70 @@
 #   values separated by tabs
 #
 
+# assumes variables fields, fieldmap variables are set
+# when called...
+# values are \x01-delimited on standard input
+#
+#    emit_record <examine-mode> [extra ... ] <<<value1\x01value2\x01...
+function emit_record()
+{
+    declare i=
+    declare exwhite='    '
+    declare exline=$'\n'$'#'
+
+    (( ! $1 )) && exwhite= && exline=
+    shift
+
+    declare record=
+    # prepend "extras"
+    for i in "$@"
+    do
+        [[ -n $i ]] && record+=${exwhite}${i}','${exline}
+    done
+
+    declare -a values=( )
+    IFS=$'\x01' read -r -a values
+
+    for ((i=0; i<${#fields[*]}; i++))
+    do
+        declare mapentry=${fieldmap[${fields[i]}]}
+        [[ -z ${mapentry} ]] && continue; # skip if absent
+
+        declare field=${mapentry%:*}
+        declare format=${mapentry#*:}
+        declare value=${values[i]}
+
+        # this sucks...  TODO: consider using a real language (i.e. not bash)
+        if [[ ${format} == '%d' || ${format} == '%f' ]]
+        then
+            value=${value//$'['/} # some results look like "[-]0.368"
+            value=${value//$']'/} # trim the brackets
+
+            [[ ! ${values[i]} =~ [+-]?[0-9]+(.[0-9]+)? ]] && value=
+        fi
+
+        [[ ${format} == '%s,,' ]] && format=%s && value=${value,,}
+        [[ ${format} == '%s^^' ]] && format=%s && value=${value^^}
+
+        [[ ${format} == '%s' ]] && format='"%s"'
+
+        printf -v value "${format}" "${value}" || exit $?
+
+        record+="${exwhite}"'"'"${field}"'":'"${value}"','"${exline}"
+    done
+    record=${record%,${exline}} # trim trailing ex linefeed
+    record=${record%,}             # trim trailing comma
+
+    printf "${exline}"'{'"${exline}"%s"${exline}"'}
+' "${record}"
+
+}
+
 function results_to_json()
 {
     declare config=
     declare examine=0
     declare extra=
-    declare NaN=
-    declare -a inputs=( )
     declare usage="
 Usage: results_to_json [OPTION]...
 
@@ -37,7 +94,7 @@ Options:
                 the event's date, for example: -j '{\"date\":\"2018-03-10\"}', in
                 conventional yyyy-MM-dd format.
 
- -h          prints this message
+ -h          prints this message and exits
 
 "
 
@@ -47,87 +104,60 @@ Options:
             j) extra="${OPTARG}";;
             x) ((examine++));;
             c) config="${OPTARG}";;
-            h) printf %s "${usage}";;
+            h) printf %s "${usage}"; exit 0;;
             [?]) printf 'unknown option \"-'%s'\"\n' "${OPTARG}"; exit 1;;
         esac
     done
     ((OPTIND--))
     shift ${OPTIND}
 
-    # delete any carriage returns
-    tr -d $'\r' |
-        # change tabs in the file to non-whitespace to prevent IFS collapsing
-        tr $'\t' $'\x01' | (
+    declare infile=
+    for infile in "$@"
+    do
+        declare infd=
+
+        exec {infd}<${infile} || exit $?
+
+        declare header=
+        # read first line into "header"
+        read -r -u ${infd} header || exit $?
+
+        # cleanup... remove carriage returns
+        #  and change tabs to \x01 to defeat IFS collapsing
+        header=${header//$'\r'/}
+        header=${header//$'\t'/$'\x01'}
 
         declare -a fields=( )
-        declare -a values=( )
+        # parse first line into array "fields", note IFS only applies to read
+        IFS=$'\x01' read -r -a fields <<<${header}
+
         declare -A fieldmap=( )
-
-        # assumes examine, extra, fields, fieldmap, and values variable are set at entry
-        function do_record()
-        {
-            declare i=
-            declare prettywhite='    '
-            declare prettyline=$'\n'$'#'
-            declare record=
-
-            [[ -z $1 ]] && prettywhite= && prettyline=
-            [[ -n ${extra} ]] && record+=${prettywhite}${extra}','${prettyline}
-
-            for ((i=0; i < ${#fields[*]}; i++))
-            do
-                declare mapentry=${fieldmap[${fields[i]}]}
-                [[ -z ${mapentry} ]] && continue; # skip if absent
-
-                declare field=${mapentry%:*}
-                declare format=${mapentry#*:}
-                declare value=${values[i]}
-
-                # this sucks...  TODO: consider using a real language (i.e. not bash)
-                if [[ ${format} == '%d' || ${format} == '%f' ]]
-                then
-                    value=${value//$'['/} # some results look like "[-]0.368"
-                    value=${value//$']'/} # trim the brackets
-
-                    [[ ! ${values[i]} =~ [+-]?[0-9]+(.[0-9]+)? ]] && value=
-                fi
-
-                printf -v value "${format}" "${value}" || exit $?
-
-                record+="${prettywhite}"'"'"${field}"'":'"${value}"','"${prettyline}"
-            done
-            record=${record%${prettyline}} # trim trailing pretty linefeed
-            record=${record%,}             # trim trailing comma
-
-            printf "${prettyline}"'{'"${prettyline}"%s"${prettyline}"'}
-' "${record}"
-        }
-
-
-        # read first line into array "fields", note IFS only applies to read
-        IFS=$'\x01' read -a fields
-
-        # build default fieldmap, basically the field names are to
-        #  be cleaned up, and the values will be strings
-        for ((i=0; i < ${#fields[*]}; i++))
-        do
-            declare field=${fields[i],,} # lower-cased
-            field=${field// /_}          # ' ' changed to '_'
-            field=${field//./}           # '.' removed
-            field=${field//$'#'/num,}    # '#' changed to "num"
-
-            fieldmap[${fields[i]}]=${field}':\"%s\"'
-        done
-
         # config overrides defaults built above
         if [[ -n ${config} ]]
         then
             . "${config}" || exit $?
+        else
+            # build default fieldmap, basically the field names are to
+            #  be cleaned up, and the values will be strings
+            for ((i=0; i < ${#fields[*]}; i++))
+            do
+                declare field=${fields[i],,} # lower-cased
+                field=${field// /_}          # ' ' changed to '_'
+                field=${field//./}           # '.' removed
+                field=${field//$'#'/num,}    # '#' changed to "num"
+
+                fieldmap[${fields[i]}]=${field}':%s'
+            done
         fi
+
+        declare -a lines=( )
+        # read rest of file into lines, so I can count 'em
+        readarray -t -u ${infd} lines || exit $?
+        # close infd
+        exec {infd}<&-
 
         if (( examine ))
         then
-
             printf '################## fieldmap ####################
 ## Maps original fields to json fields, and how
 ##  each field is printed, as a printf format specifier.
@@ -137,12 +167,11 @@ Options:
 ##
 ## TODO: more features, like True and False from zero and one?
 ##
-
 '
             # equivalent to typeset -p fieldmap
             printf 'declare -A fieldmap=(
 '
-            declare field
+            declare field=
             for field in "${!fieldmap[@]}"
             do
                 printf '["%s"]=%s
@@ -153,24 +182,24 @@ Options:
 '
 
             printf '################## sample json ####################
-## how the data would look with config set to %s
-' "${config:-default}"
-
-            while (( examine-- ))
-            do
-                IFS=$'\x01' read -a values
-
-                do_record 1
-            done
-
+## how the data would look with config set to %s' "${config:-default}"
+            numlines=${examine}
+            examine=1
         else
-            # read subsequent lines into array values
-            while IFS=$'\x01' read -a values
-            do
-                do_record
-            done
+            numlines=${#lines[*]}
         fi
-    )
+
+        for ((i=0; i<numlines; i++))
+        do
+            # delete any carriage returns on the line
+            declare line=${lines[i]//$'\r'/}
+
+            # change tabs in the file to non-whitespace to
+            #  prevent IFS collapsing
+            emit_record "${examine}" '"date":"'"${infile%.tsv}"'"' '"entries":'"${numlines}"'' "${extra}" <<<${line//$'\t'/$'\x01'}
+        done
+    done
+
 }
 
 if [[ ${0} == ${BASH_SOURCE[0]} ]]
