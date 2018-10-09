@@ -43,6 +43,9 @@ function emit_record()
         declare format=${mapentry#*:}
         declare value=${values[i]}
 
+        # strip double quotes
+        value=${value//$'"'/}
+
         # this sucks...  TODO: consider using a real language (i.e. not bash)
         if [[ ${format} == '%d' || ${format} == '%f' ]]
         then
