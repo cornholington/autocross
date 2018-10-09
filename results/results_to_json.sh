@@ -65,7 +65,7 @@ function emit_record()
         record+="${exwhite}"'"'"${field}"'":'"${value}"','"${exline}"
     done
     record=${record%,${exline}} # trim trailing ex linefeed
-    record=${record%,}             # trim trailing comma
+    record=${record%,}          # trim trailing comma
 
     printf "${exline}"'{'"${exline}"%s"${exline}"'}
 ' "${record}"
