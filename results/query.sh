@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 INPUTRC=query.inputrc
 while read -e -r -p "last_name [first_name]: " last_name first_name rest;
