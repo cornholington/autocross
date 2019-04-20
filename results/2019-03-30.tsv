@@ -1,0 +1,81 @@
+Class	Number	CW	First Name	Last Name	Car Model	Car Color	Class 2	Grid #	Barcode	Member	Member#	Expires	DOB	Age	Registered	Reg.CheckIn	OLR	Paid	Fee Type	Amnt.	Method	Annual Tech	Annual Waiver	Rookie	Run Heat	Work Heat	Work Assignment	Checkin	Year	Car Make	Gender	Raw Time	Raw Pos.	Prev. Pos.	Total	Diff.	From 1st	Pax Time	Pax Pos.	Best Run	Run 1	Pen 1	Run 2	Pen 2	Run 3	Pen 3	Run 4	Pen 4	
+G	200		Brian	Goodwin	Miata	Silver			200	No					Yes	No		No		0		No	No	No				No	2006	Mazda	Male	71.633	1		71.633	[-]0.008	-	71.633	1	4	73.836		72.337		71.739		71.633	
+G	131		Murat	Ebesek	M2	LBB			131	No					Yes	No		No		0		No	No	No				No	2018	BMW	Male	71.641	2		71.641	0.008	0.008	71.641	2	4	71.829	1	71.665		71.610	1	71.641	
+G	155		Connor	Bloum	Miata	Green			155	No					Yes	No		No		0		No	No	No				No	1999	Mazda	Male	72.022	3		72.022	0.381	0.389	72.022	3	3	73.322		72.373	1	72.022		72.013	1
+G	251		Mark	Mervich	RF90	blue/white			251	No					Yes	No		No		0		No	No	No				No	1990	Van Diemen	Male	72.203	4		72.203	0.181	0.570	72.203	4	2	73.089		72.203		72.473		72.198	1
+G	10		Peter	Engels	M2C	Silver			10	No					Yes	No		No		0		No	No	No				No	2019	BMW	Male	73.650	7		73.650	1.447	2.017	73.650	7	4	74.534		73.920		73.993		73.650	
+G	337		Sean	Thompson	86	Halo White			337	No					Yes	No		No		0		No	No	No				No	2017	Toyota	Male	74.012	10		74.012	0.362	2.379	74.012	10	4	75.976	1	74.297		74.207		74.012	
+G	71		William	Wong	Miata	Black Cherry			71	No					Yes	No		No		0		No	No	No				No	2004	Mazda	Male	74.223	12		74.223	0.211	2.590	74.223	12	1	74.223		74.823		74.853		75.098	
+G	231		Satakal	Khalsa	323iT	Helrot Red			231	No					Yes	No		No		0		No	No	No				No	2000	BMW	Male	74.898	15		74.898	0.675	3.265	74.898	15	3	76.822		75.895		74.898		74.361	1
+G	102		Donald	Auten	Cayman S	Gray			102	No					Yes	No		No		0		No	No	No				No	2007	Porsche	Male	76.923	25		76.923	2.025	5.290	76.923	25	4	82.079		78.050	1	77.728	4	76.923	
+G	9		Nick	Owen	i8	Grey			9	No					Yes	No		No		0		No	No	No				No	2017	BMW	Male	78.018	33		78.018	1.095	6.385	78.018	33	3	78.648		77.891	dnf	78.018		78.139	
+G	413		Mark	Farmer	M3	Silver			413	No					Yes	No		No		0		No	No	No				No	1998	BMW	Male	78.308	38		78.308	0.290	6.675	78.308	38	1	78.308		78.612		78.871		79.313	
+LC	179		Theodore	Skinner	318ti	Red			179	No					Yes	No		No		0		No	No	No				No	1995	BMW	Male	74.394	13		74.394	[-]1.750	-	74.394	13	4	74.971		75.385	1	74.665		74.394	
+LC	971		Todd	Skinner	318ti	Red			971	No					Yes	No		No		0		No	No	No				No	1995	BMW	Male	76.144	21		76.144	1.750	1.750	76.144	21	3	76.457		76.190		76.144		76.493	
+LC	48		Grayson	Marble	318Ti	Blue			48	No					Yes	No		No		0		No	No	No				No	1998	BMW	Male	77.102	27		77.102	0.958	2.708	77.102	27	4	79.724		78.218		78.667		77.102	
+LC	52		Garret	Fields	325 es	Delphin Grey			52	No					Yes	No		No		0		No	No	No				No	1986	BMW	Male	80.597	54		80.597	3.495	6.203	80.597	54	4	81.445		80.710		80.613		80.597	
+LC	49		Paul	Marble	318Ti	Blue			49	No					Yes	No		No		0		No	No	No				No	1998	BMW	Male	82.076	63		82.076	1.479	7.682	82.076	63	3	86.245		82.821	1	82.076		83.912	
+LC	25		Owen	Nelson	325i	White			25	No					Yes	No		No		0		No	No	Yes				No	1985	BMW	Male	85.070	73		85.070	2.994	10.676	85.070	73	4	85.608		85.566		85.856		85.070	
+MC	47		David	Payne	Cooper	Blue			47	No					Yes	No		No		0		No	No	No				No	2005	Mini	Male	81.734	62		81.734	[-]1.434	-	81.734	62	4	83.781		81.878		81.849	1	81.734	
+MC	41		Phil	Linskens	cooper	white			41	No					Yes	No		No		0		No	No	No				No	2016	Mini	Male	83.168	67		83.168	1.434	1.434	83.168	67	2	85.105		83.168		84.245		83.667	
+MM	136		Chris	Ross	M3	Silver			136	No					Yes	No		No		0		No	No	No				No	1998	BMW	Male	73.894	9		73.894	[-]2.150	-	73.894	9	4	76.095		74.697		73.993		73.894	
+MM	26		Julien	Brandt	M3	Silver			26	No					Yes	No		No		0		No	No	No				No	1998	BMW	Male	76.044	19		76.044	2.150	2.150	76.044	19	3	76.936		76.809		76.044		76.481	
+MM	123		Steve	Peoples	m coupe	red			123	No					Yes	No		No		0		No	No	No				No	1999	BMW	Male	77.655	31		77.655	1.611	3.761	77.655	31	3	81.887	2	79.861		77.655		78.956	
+MM	888		Ryan	Schaffer	M3	White			888	No					Yes	No		No		0		No	No	No				No	1995	BMW	Male	81.026	58		81.026	3.371	7.132	81.026	58	3	82.547		80.874	1	81.026		80.236	1
+MM	3315		William	Caswell	E36	Silver			3315	No					Yes	No		No		0		No	No	No				No	0	BMW	Male	81.243	59		81.243	0.217	7.349	81.243	59	1	81.243		81.846		82.009		81.774	
+MM	20		Justin	Schmuckle	M3	Silver			20	No					Yes	No		No		0		No	No	Yes				No	1998	BMW	Male	82.821	66		82.821	1.578	8.927	82.821	66	4	83.486		82.961		82.625	1	82.821	
+MM	315		Cesar	Jimenez	M3	silver			315	No					Yes	No		No		0		No	No	Yes				No	1998	BMW	Male	86.613	76		86.613	3.792	12.719	86.613	76	4	113.448	dnf	88.768		87.557		86.613	
+MPM	34		Brett	Goldstock	M2	Blue			34	No					Yes	No		No		0		No	No	No				No	2017	BMW	Male	74.616	14		74.616	[-]1.037	-	74.616	14	4	76.318		74.822	2	75.022	1	74.616	
+MPM	954		Ryan	Moore	M3	LagunaSeca Blue			954	No					Yes	No		No		0		No	No	No				No	2015	BMW	Male	75.653	17		75.653	1.037	1.037	75.653	17	3	77.639		76.176		75.653		75.968	
+MPM	31		Sam	Hahn	M3	Frozen Silver			31	No					Yes	No		No		0		No	No	No				No	2018	BMW	Male	77.329	30		77.329	1.676	2.713	77.329	30	4	81.406		78.589		77.973		77.329	
+MPM	526		Daniel	Weddell	M4	Yellow			526	No					Yes	No		No		0		No	No	No				No	2018	BMW	Male	77.770	32		77.770	0.441	3.154	77.770	32	3	78.240		78.241		77.770		77.855	
+MPM	19		Ashley	Andreoli	M3	SGM	Ladies		19	No					Yes	No		No		0		No	No	No				No	2008	BMW	Female	78.359	39		78.359	0.589	3.743	78.359	39	2	80.493		78.359		79.759		78.634	
+MPM	18		Ludovico	Verducci	M4	Black Sapphire			18	No					Yes	No		No		0		No	No	No				No	2016	BMW	Male	78.574	40		78.574	0.215	3.958	78.574	40	1	78.574		78.847		79.887		80.103	
+MPS	14		Ben	Dullnig	M3	Black			14	No					Yes	No		No		0		No	No	No				No	2017	BMW	Male	79.019	43		79.019	[-]0.175	-	79.019	43	4	81.325	dnf	80.741		80.750		79.019	
+MPS	523		Grant	Kluzak	M2	Long Beach Blue			523	No					Yes	No		No		0		No	No	No				No	2018	BMW	Male	79.194	46		79.194	0.175	0.175	79.194	46	2	80.994	1	79.194		79.788		79.649	
+MPS	51		Peter	Oneppo	M3	Black			51	No					Yes	No		No		0		No	No	No				No	2010	BMW	Male	80.791	55		80.791	1.597	1.772	80.791	55	4	82.407	3	81.382		79.860	1	80.791	
+MS	38		Tyler	Johnson	Z4 M Coupe	Black			38	No					Yes	No		No		0		No	No	No				No	2007	BMW	Male	79.095	44		79.095	[-]0.802	-	79.095	44	4	83.838		80.142		79.407		79.095	
+MS	50		Clay	Woodward	M3	Silver			50	No					Yes	No		No		0		No	No	Yes				No	1997	BMW	Male	79.897	51		79.897	0.802	0.802	79.897	51	2	81.423		79.897		80.757		81.439	1
+MS	36		Karl	Raghina	M3	Silver			36	No					Yes	No		No		0		No	No	Yes				No	2002	BMW	Male	90.347	78		90.347	10.450	11.252	90.347	78	4	93.698		92.817		92.015		90.347	
+NAM	330		Chris	Keefer	330i	Black			330	No					Yes	No		No		0		No	No	No				No	2006	BMW	Male	76.861	22		76.861	[-]7.985	-	76.861	22	4	77.726		76.454	3	77.434		76.861	
+NAM	17		malcolm	hill	328i	Gray			17	No					Yes	No		No		0		No	No	No				No	2009	BMW	Male	84.846	72		84.846	7.985	7.985	84.846	72	4	85.794		85.496	2	85.160		84.846	
+NAS	53		Nicholas	Romary	328i	Blk Styln			53	No					Yes	No		No		0		No	No	No				No	1997	BMW	Male	78.759	41		78.759	[-]0.083	-	78.759	41	3	82.817	1	79.653		78.759		79.736	
+NAS	7		Harry	Weiss	Z3-2.8	black			7	No					Yes	No		No		0		No	No	No				No	2000	BMW	Male	78.842	42		78.842	0.083	0.083	78.842	42	4	80.423		79.650		80.495		78.842	
+TM	46		Paul	Hualde	235i	EB			46	No					Yes	No		No		0		No	No	No				No	2014	BMW	Male	78.095	37		78.095	-	-	78.095	37	4	78.609		77.473	4	78.585	1	78.095	
+TS	999		Peter	Minearo	M240i	Black Sapphire			999	No					Yes	No		No		0		No	No	No				No	2017	BMW	Male	79.577	49		79.577	[-]0.860	-	79.577	49	2	79.751		79.577		80.300		84.983	
+TS	29		AJ	Yang-Halsey	328i	Black			29	No					Yes	No		No		0		No	No	No				No	2013	BMW	Male	80.437	52		80.437	0.860	0.860	80.437	52	1	80.437		80.385	1	80.951		81.006	
+TS	33		Adrian	Salapare	335i	Silver			33	No					Yes	No		No		0		No	No	Yes				No	2015	BMW	Male	86.178	74		86.178	5.741	6.601	86.178	74	2	86.880		86.178		87.180		86.422	3
+TS	13		Javier	Lassalle	428i grand Coupe	White			13	No					Yes	No		No		0		No	No	Yes				No	2015	BMW	Male	89.356	77		89.356	3.178	9.779	89.356	77	4	91.987		92.034		89.373		89.356	
+X	410		Andreas	K	Exige	Orange			410	No					Yes	No		No		0		No	No	No				No	2006	Lotus	Male	72.867	5		72.867	[-]0.692	-	72.867	5	3	73.986		73.994		72.867		72.977	
+X	43		chris	mccrea	camaro	red			43	No					Yes	No		No		0		No	No	No				No	2018	Chevrolet	Male	73.559	6		73.559	0.692	0.692	73.559	6	4	74.919		73.941		74.149		73.559	
+X	16		Chad	Carnevale	GT3	White			16	No					Yes	No		No		0		No	No	No				No	2010	Porsche	Male	73.786	8		73.786	0.227	0.919	73.786	8	2	74.266		73.786		85.691		79.108	
+X	60		Sean	Dynes	308	Red			60	No					Yes	No		No		0		No	No	No				No	1981	Ferrari	Male	74.196	11		74.196	0.410	1.329	74.196	11	4	74.905		74.910		74.603		74.196	
+X	120		Brian	Stafford	Camaro	Yellow			120	No					Yes	No		No		0		No	No	No				No	2018	Chevrolet	Male	75.087	16		75.087	0.891	2.220	75.087	16	3	76.886		76.015		75.087		75.365	
+X	12		Will	Flores	Camaro 1LE	Nightfall Grey			12	No					Yes	No		No		0		No	No	No				No	2017	Chevrolet	Male	75.869	18		75.869	0.782	3.002	75.869	18	2	76.899		75.869		76.181		76.373	
+X	707		paul	catalano	civic	black			707	No					Yes	No		No		0		No	No	No				No	1999	Honda	Male	76.062	20		76.062	0.193	3.195	76.062	20	2	77.066	1	76.062		75.760	1	76.087	
+X	39		Michael	Beale	S2000	Gray			39	No					Yes	No		No		0		No	No	No				No	2005	Honda	Male	76.867	23		76.867	0.805	4.000	76.867	23	4	76.929		76.791	1	77.301		76.867	
+X	248		Mathieu	Hoffmann	Miata	Black			248	No					Yes	No		No		0		No	No	No				No	2000	Mazda	Male	76.914	24		76.914	0.047	4.047	76.914	24	1	76.914		77.363		77.022		77.669	
+X	137		Kaile	Hogan	RX8 GT	Red			137	No					Yes	No		No		0		No	No	No				No	2009	Mazda	Male	77.000	26		77.000	0.086	4.133	77.000	26	3	77.904		77.108		77.000		77.545	
+X	40		Matt	Million	MX-5	Grey			40	No					Yes	No		No		0		No	No	Yes				No	2006	Mazda	Male	77.139	28		77.139	0.139	4.272	77.139	28	4	78.830		78.155		77.490		77.139	
+X	860		Bruno	Struck	FR-S	black			860	No					Yes	No		No		0		No	No	No				No	2016	Scion	Male	77.152	29		77.152	0.013	4.285	77.152	29	4	78.225		77.361		76.902	1	77.152	
+X	868		Fred	Chen	Miata RF	Red			868	No					Yes	No		No		0		No	No	No				No	2017	Mazda	Male	78.029	34		78.029	0.877	5.162	78.029	34	2	78.698	3	78.029		77.193	1	78.303	
+X	35		Edward	Fertig	Corvette	Red			35	No					Yes	No		No		0		No	No	No				No	2009	Chevrolet	Male	78.079	35		78.079	0.050	5.212	78.079	35	4	81.264	dnf	79.782		79.666		78.079	
+X	400		Craig	Moody	FRS	White			400	No					Yes	No		No		0		No	No	No				No	2015	Scion	Male	78.082	36		78.082	0.003	5.215	78.082	36	4	80.676		79.445		78.651		78.082	
+X	957		Gabe	Maze-Rogers	Miata	Black			957	No					Yes	No		No		0		No	No	No				No	1997	Mazda	Male	79.142	45		79.142	1.060	6.275	79.142	45	3	79.882		79.695		79.142		77.381	1
+X	837		Mark	Baysinger	RX-8	Gray			837	No					Yes	No		No		0		No	No	No				No	2007	Mazda	Male	79.446	47		79.446	0.304	6.579	79.446	47	4	80.317		80.259		80.893		79.446	
+X	44		Patrick	Ailes	FRS	White			44	No					Yes	No		No		0		No	No	No				No	2013	Scion	Male	79.552	48		79.552	0.106	6.685	79.552	48	2	80.617	1	79.552		79.752		81.043	
+X	227		David	Brackman	Dino 308 gt/4	yellow			227	No					Yes	No		No		0		No	No	No				No	1975	Ferrari	Male	79.769	50		79.769	0.217	6.902	79.769	50	4	85.134		81.695		80.380	1	79.769	
+X	852		Joseph	Parsons	GTI	White			852	No					Yes	No		No		0		No	No	No				No	2016	Volkswagen	Male	80.592	53		80.592	0.823	7.725	80.592	53	3	80.024	dnf	79.889	1	80.592		80.706	1
+X	783		Karen	Callander	RX-8	Gray	Ladies		783	No					Yes	No		No		0		No	No	No				No	2007	Mazda	Female	80.847	56		80.847	0.255	7.980	80.847	56	3	83.132		81.525		80.847		81.007	
+X	42		James	Ailes	FRS	White			42	No					Yes	No		No		0		No	No	No				No	2013	Scion	Male	80.870	57		80.870	0.023	8.003	80.870	57	4	83.015		81.447	1	81.583		80.870	
+X	722		Mingdong	Wang	mx-5	white			722	No					Yes	No		No		0		No	No	No				No	2017	Mazda	Male	81.296	60		81.296	0.426	8.429	81.296	60	4	82.052		81.370		81.255	1	81.296	
+X	212		Lori	Schult	86	Halo White	Ladies		212	No					Yes	No		No		0		No	No	No				No	2017	Toyota	Female	81.350	61		81.350	0.054	8.483	81.350	61	3	85.397		83.468		81.350		81.364	
+X	32		Perzan	Irani	S2000	Red			32	No					Yes	No		No		0		No	No	Yes				No	2007	Honda	Male	82.294	64		82.294	0.944	9.427	82.294	64	4	86.962		83.658		83.961		82.294	
+X	15		Brian	Guthrie	Corvette	Silver			15	No					Yes	No		No		0		No	No	No				No	2008	Chevrolet	Male	82.775	65		82.775	0.481	9.908	82.775	65	4	87.818		84.725		83.564		82.775	
+X	45		Timothy	Roque	Miata	Montego Blue			45	No					Yes	No		No		0		No	No	Yes				No	1995	Mazda	Male	83.348	68		83.348	0.573	10.481	83.348	68	4	88.285		84.144		84.171		83.348	
+X	23		Jacob	Danielson	Firebird Formula	Red			23	No					Yes	No		No		0		No	No	No				No	1993	Pontiac	Male	83.668	69		83.668	0.320	10.801	83.668	69	2	83.940		83.668		83.347	2	84.147	
+X	30		Alfred	Ramirez	Miata	Emerald Green			30	No					Yes	No		No		0		No	No	No				No	2000	Mazda	Male	83.791	70		83.791	0.123	10.924	83.791	70	3	85.265		85.191		83.791		83.855	
+X	6		Nathan	Gibbs	MR2	"""way2"" blue"			6	No					Yes	No		No		0		No	No	No				No	1991	Toyota	Male	84.055	71		84.055	0.264	11.188	84.055	71	4	89.753		84.619		84.470		84.055	
+X	8		Paul	Gibbs	MR2	Blue			8	No					Yes	No		No		0		No	No	Yes				No	1991	Toyota	Male	86.208	75		86.208	2.153	13.341	86.208	75	3	91.856		89.825		86.208		88.098	dnf
+X	28		Chenzhe	Qian	c300	gray			28	No					Yes	No		No		0		No	No	Yes				No	2015	Mercedes-Benz	Male	91.601	79		91.601	5.393	18.734	91.601	79	2	92.112		91.601		93.664		94.857	
+X	66		Morgan	Peterson	914	yellow			66	No					Yes	No		No		0		No	No	No				No	1970	Porsche	Male	93.936	80		93.936	2.335	21.069	93.936	80	4	97.096		95.887	dnf	94.551		93.936	
